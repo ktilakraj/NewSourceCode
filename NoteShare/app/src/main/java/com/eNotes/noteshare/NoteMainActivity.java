@@ -870,6 +870,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 				}
 				blinkAnimation(progressRecordtext,false);
 				getNoteFromDB();
+				updateButtonUI(-1);
 			}
 			catch (Exception e) {
 
