@@ -1,475 +1,15 @@
 [
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/slidemenurow1.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/slidemenurow1.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/note_activity_main.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/note_activity_main.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/drawing_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/drawing_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/interoduction_activity.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/interoduction_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/brush_chooser.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/brush_chooser.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/paintcolor.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/paintcolor.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/alert_view.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/alert_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/copy_of_notefolderrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/copy_of_notefolderrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/addnew_note.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/addnew_note.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/alert_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/alert_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/more_setting_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/more_setting_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notefolderrow_1.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notefolderrow_1.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/act_multi_picker.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/act_multi_picker.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_note_detail_activity_1.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/activity_note_detail_activity_1.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/paintcolor.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/paintcolor.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/copy_of_activity_main.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/copy_of_activity_main.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notetextlist_fullscreen_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notetextlist_fullscreen_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notetextlist_fullscreen_activity.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notetextlist_fullscreen_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notelistrow.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notelistrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_text_editor.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/activity_text_editor.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_2.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_2.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/note_more_info.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/note_more_info.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/audiochooser_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/audiochooser_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/stroke.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/stroke.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/text_font_size_choose_row.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/text_font_size_choose_row.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notesharelockactivity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notesharelockactivity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/view_row_list.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/view_row_list.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/imagechooser_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/imagechooser_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/sliding_sctivity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/sliding_sctivity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/invitefriendsrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/invitefriendsrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/checklist_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/checklist_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notefolderrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notefolderrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/folderlisting_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/folderlisting_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/note_scribble_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/note_scribble_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/note_more_info.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/note_more_info.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/act_picker.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/act_picker.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/sendfeedback_activity.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/sendfeedback_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_2.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/menu_header_2.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/chooseimagealertview.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/chooseimagealertview.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/edit_text_row.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/edit_text_row.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_activity_main.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/folder_activity_main.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/text_note_row.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/text_note_row.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/userprofile.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/userprofile.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/note_text_style_chooser.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/note_text_style_chooser.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/login_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/login_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/act_picker.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/act_picker.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/actionsheet.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/actionsheet.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/text_font_size_choose_row.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/text_font_size_choose_row.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_4.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_4.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/seprator_layout.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/seprator_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_1.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/menu_header_1.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/chooser_header.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/chooser_header.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_list_activity_main.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/folder_list_activity_main.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/registration_activity.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/registration_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notificationlist_activity.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notificationlist_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/imagechooser_activity.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/imagechooser_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_view_actionsheet_sort.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/folder_view_actionsheet_sort.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/invitefriends_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/invitefriends_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/checklist_activity.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/checklist_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/actionsheet_sort.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/actionsheet_sort.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/textchooser_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/textchooser_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/title_header_view.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/title_header_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/activity_splash.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/custom_row.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/custom_row.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_text_editor.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/activity_text_editor.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_new.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/menu_header_new.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/newdrawing_main.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/newdrawing_main.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notefoldergridrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notefoldergridrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_3.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_3.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/note_text_view.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/note_text_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/foldernotelist_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/foldernotelist_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/more_setting_view.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/more_setting_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/note_audio_chooser_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/note_audio_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_main_1.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/activity_main_1.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/interoduction_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/interoduction_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notificationlist_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notificationlist_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/folderlistingrow.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/folderlistingrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/reset_alert_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/reset_alert_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/color_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/color_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/sendfeedback_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/sendfeedback_activity.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/addnew_note.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/addnew_note.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/edit_alert_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/edit_alert_view.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/act_demo.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/act_demo.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_view_actionsheet.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/folder_view_actionsheet.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/title_header_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/title_header_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_center_row.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notification_center_row.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/view_row_list.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/view_row_list.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notefoldepintrestrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notefoldepintrestrow.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/note_activity_main.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/note_activity_main.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/foldernotelist_activity.xml",
@@ -480,12 +20,16 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/color_layout.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/interoduction_activity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/interoduction_activity.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/trashrow.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/trashrow.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/paintcolor.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/paintcolor.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/copy_of_notefolderrow.xml",
@@ -504,16 +48,16 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/folder_view_actionsheet.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/alert_view.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/alert_view.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/copy_of_activity_main.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/copy_of_activity_main.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/invitefriendsrow.xml",
@@ -532,6 +76,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/drawing_activity.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/drawing_activity.xml"
     },
@@ -540,8 +88,8 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/activity_main_1.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/act_multi_picker.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/act_multi_picker.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -572,32 +120,16 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/seprator_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/seprator_layout.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_note_detail_activity_1.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/activity_note_detail_activity_1.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_trash.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/activity_trash.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notetextlist_fullscreen_activity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notetextlist_fullscreen_activity.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notelist_row_new.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notelist_row_new.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/slidemenurow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/slidemenurow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/newdrawing_main.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/newdrawing_main.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/text_note_row.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/text_note_row.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notelistrow.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notelistrow.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -608,16 +140,36 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_select_dialog_material.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_2.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_2.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/note_more_info.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/note_more_info.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/slidemenurow1.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/slidemenurow1.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/text_font_size_choose_row.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/text_font_size_choose_row.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/view_row_list.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/view_row_list.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_trash.xml",
@@ -632,28 +184,8 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_1.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/text_theam_file.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/text_theam_file.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_notification.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/menu_header_notification.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/audiomainrecord_layout.xml",
@@ -664,36 +196,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notelistrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notelistrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_list_activity_main.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/folder_list_activity_main.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/audiorecord_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/audiorecord_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/note_activity_main.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/note_activity_main.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -704,32 +212,40 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/note_audio_chooser_view.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notelist_fullscreen_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/notelist_fullscreen_activity.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/text_theam_file.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/text_theam_file.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/sendfeedback_activity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/sendfeedback_activity.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/userprofile_activity.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/userprofile_activity.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/trashrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/trashrow.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/audiomainrecord_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/audiomainrecord_layout.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/menu_header.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/edit_text_row.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/edit_text_row.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/text_note_row.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/text_note_row.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/userprofile.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/userprofile.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/folderlisting_view.xml",
@@ -740,20 +256,32 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/act_picker.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/act_picker.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/actionsheet.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/actionsheet.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_notification.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_notification.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_4.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_4.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/seprator_layout.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/seprator_layout.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/stroke.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/stroke.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/note_text_style_chooser.xml",
@@ -764,12 +292,8 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/invitefriends_activity.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/note_text_view.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/note_text_view.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/custom_row.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/custom_row.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/chooser_header.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/chooser_header.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
@@ -780,6 +304,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notefoldepintrestrow.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/registration_activity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/registration_activity.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
     },
@@ -788,28 +316,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/actionsheet.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/actionsheet.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/registration_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/registration_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_note_listing_actvity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/activity_note_listing_actvity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/userprofile.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/userprofile.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/sliding_sctivity.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/sliding_sctivity.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_3.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/menu_header_3.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
@@ -820,12 +332,20 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/edit_alert_view.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notificationlist_activity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notificationlist_activity.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notefoldergridrow.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notefoldergridrow.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/imagechooser_activity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/imagechooser_activity.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_view_actionsheet_sort.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/folder_view_actionsheet_sort.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
@@ -836,32 +356,24 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/login_activity.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/checklist_activity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/checklist_activity.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/actionsheet_sort.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/actionsheet_sort.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notelist_row_new.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notelist_row_new.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/edit_text_row.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/edit_text_row.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_lines.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/audiorecord_layout.xml",
@@ -870,6 +382,14 @@
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_new.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_new.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/title_header_view.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/title_header_view.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/audiochooser_activity.xml",
@@ -884,24 +404,24 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/chooser_header.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/chooser_header.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_view_actionsheet_sort.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/folder_view_actionsheet_sort.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/custom_row.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/custom_row.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/actionsheet_sort.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/actionsheet_sort.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_4.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/menu_header_4.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/folderlistingrow.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/folderlistingrow.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_text_editor.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/activity_text_editor.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/brush_chooser.xml",
@@ -912,36 +432,32 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notelist_fullscreen_activity.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/termsandconditions_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/termsandconditions_activity.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/newdrawing_main.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/newdrawing_main.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/reset_alert_view.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/reset_alert_view.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/userprofile_activity.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/userprofile_activity.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_3.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_3.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_title_item.xml"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/note_text_view.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/note_text_view.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/more_setting_view.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/more_setting_view.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/termsandconditions_activity.xml",
@@ -952,20 +468,16 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notesharelockactivity.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/act_multi_picker.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/layout/act_multi_picker.xml"
-    },
-    {
-        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/activity_splash.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/folderlistingrow.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/folderlistingrow.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/chooseimagealertview.xml",

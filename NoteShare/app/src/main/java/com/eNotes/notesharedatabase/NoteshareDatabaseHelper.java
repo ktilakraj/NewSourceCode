@@ -337,7 +337,7 @@ public class NoteshareDatabaseHelper extends SQLiteOpenHelper {
 
 		SimpleDateFormat dateFormatGmt = new SimpleDateFormat(
 				"dd/MM/yyyy HH:mm:ss");
-		dateFormatGmt.setTimeZone(TimeZone.getDefault());
+		dateFormatGmt.setTimeZone(TimeZone.getTimeZone("GMT"));
 		Date d = new Date();
 		String strDate = dateFormatGmt.format(d);
 

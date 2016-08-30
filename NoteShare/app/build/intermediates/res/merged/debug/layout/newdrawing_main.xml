@@ -43,7 +43,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:id="@+id/layoutOptions"
-        android:background="@android:color/holo_green_dark"
+        android:background="@android:color/white"
         android:orientation="horizontal"
         android:weightSum="5"
         android:layout_below="@+id/mainHeadermenue"
