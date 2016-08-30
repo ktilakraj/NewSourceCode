@@ -1,0 +1,1602 @@
+[
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_16.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_16.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/detail_view_logo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/detail_view_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_icon_2.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/text_icon_2.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/recording_status.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/recording_status.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_erase.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/scrbble_erase.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/delete_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/edit_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/edit_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/progess_fill.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/progess_fill.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/sequnce_header_logo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/sequnce_header_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/color_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/color_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/gallary_icon_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/gallary_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/circle.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/circle.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/stop_audio.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/stop_audio.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/note_menu_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/note_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/search_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/search_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/timebomb_sort_view.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/timebomb_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/record_start_update.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/record_start_update.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_numbering.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/text_note_numbering.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/play_audio.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/play_audio.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/list_view_logo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/list_view_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/splash_logo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/splash_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/timebomb_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/timebomb_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/sort_pop_up.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/sort_pop_up.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_lock.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/image_option_lock.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_delete.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/image_option_delete.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/pintrest_view_logo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/pintrest_view_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/sub_menu.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/sub_menu.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/more_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/more_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_18.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_18.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/logout_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/logout_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/more_icon_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/more_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/sub_menu_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/sub_menu_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_28.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_28.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/calander_header_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/calander_header_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/edit_menu_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/edit_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/restore_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/restore_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_icon_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_highlight.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/scrbble_highlight.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/desc_rounded_no_padding_black.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/desc_rounded_no_padding_black.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/single_logo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/single_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/invite_small_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/invite_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/color_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/color_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/move_menu_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/move_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/lock_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/lock_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/createdtime_sort_view.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/createdtime_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/tim_bomb_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/tim_bomb_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/calander_header_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/calander_header_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_bold.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_note_bold.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/head_phone.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/head_phone.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/audio_pause.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/audio_pause.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/audio_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/audio_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/check_list_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/check_list_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_more.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/scrbble_more.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/setting_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/setting_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/lock_icon_tut.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/lock_icon_tut.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_38.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_38.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/pintrest_view_logo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/pintrest_view_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/archive_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/archive_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_menu_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/delete_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/grid_view_logo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/grid_view_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/likeus_on_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/likeus_on_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/recording_status.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/recording_status.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/pause_audio.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/pause_audio.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_12.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_12.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/reminder_menu_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/reminder_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/fb_small_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/fb_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_icon_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_undo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/scrbble_undo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/download.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/download.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_icon_2.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_icon_2.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/underline_text.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/underline_text.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/progess_fill.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/progess_fill.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_30.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_30.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_36.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_36.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/intero_folder.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/intero_folder.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/type_type_text_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/type_type_text_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/delete_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/new_circle.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/new_circle.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/detail_view_logo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/detail_view_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_14.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_14.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/notification_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/notification_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/shadow.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/shadow.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_timebomb.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/image_option_timebomb.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/record_start_update.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/record_start_update.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/ic_cancel.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/time_bomb_tut.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/time_bomb_tut.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_timebomb.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/image_option_timebomb.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/sequnce_header_logo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/sequnce_header_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/progress.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/progress.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/tim_bomb_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/tim_bomb_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_new_gray_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/delete_new_gray_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/color_sort_view.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/color_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/new_paint.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/new_paint.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/small.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/small.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/ws_small_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/ws_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_20.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_20.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/sms_small_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/sms_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/delete_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/large.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/large.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/reminder_sort_view.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/reminder_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/progress.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/progress.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/menu_hamburg.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/menu_hamburg.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/audio_pause.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/audio_pause.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_numbering.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_note_numbering.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/circular_view.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/circular_view.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/folder_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/folder_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/timebomb_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/timebomb_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/back_icon_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/back_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/noteshare_header_logo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/noteshare_header_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/modifiedtime_sort_view.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/modifiedtime_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_icon_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/share_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/unlock_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/unlock_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_34.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_34.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/rate_us_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/rate_us_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/paint_pressed.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/paint_pressed.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/termsandcondition_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/termsandcondition_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_share.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/image_option_share.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/send_feedback_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/send_feedback_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/shadow.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/shadow.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_back.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/scrbble_back.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_icon_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/share_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/search_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/search_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/note_menu_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/note_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/more_icon_2.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/more_icon_2.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_bullet.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/text_note_bullet.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/record_stop_update.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/record_stop_update.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/save_canvas.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/save_canvas.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/modifiedtime_sort_view.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/modifiedtime_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/appicon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/appicon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/new_erase.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/new_erase.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_38.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_38.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_itlic.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/text_note_itlic.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_undo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/scrbble_undo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_newdraw_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/scrbble_newdraw_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/cross_audio.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/cross_audio.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/threedots.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/threedots.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_menu_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/share_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/audio_play.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/audio_play.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/background_front.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/background_front.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/edit_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/edit_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_26.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_26.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/desc_rounded_no_padding.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/desc_rounded_no_padding.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/desc_rounded_no_padding_black.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/desc_rounded_no_padding_black.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_highlight.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/scrbble_highlight.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/intro_create.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/intro_create.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/view_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/view_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/layout_shadow.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/layout_shadow.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/create_circle.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/create_circle.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/background_fill.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/background_fill.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/new_canvas.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/new_canvas.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/large.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/large.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/reminder_sort_view.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/reminder_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/header_search.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/header_search.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/grid_view_logo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/grid_view_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_newdraw.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/scrbble_newdraw.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/alert_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/alert_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_underline.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_note_underline.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_small_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/share_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/lock_menu_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/lock_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/circle.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/circle.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/rectangle.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/rectangle.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_36.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_36.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/send_feedback_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/send_feedback_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/choice_selected.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/choice_selected.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/gallary_icon_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/gallary_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_draw.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/scrbble_draw.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_move.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/image_option_move.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/sms_small_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/sms_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/record_stop_update.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/record_stop_update.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/play_audio.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/play_audio.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/stop_audio.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/stop_audio.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/ic_cancel.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/rectangle.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/rectangle.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/choice_unselected.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/choice_unselected.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/note_header_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/note_header_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/done_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/done_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_bullet.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_note_bullet.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_16.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_16.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/unlock_menu_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/unlock_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/thumb.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/thumb.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/termsandcondition_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/termsandcondition_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_18.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_18.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/color_header_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/color_header_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/underline_text.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/underline_text.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/new_paint.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/new_paint.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/invite_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/invite_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/background_back.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/background_back.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_12.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_12.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_icon_tut.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/share_icon_tut.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/back_button_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/back_button_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/sub_menu_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/sub_menu_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/type_type_text_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/type_type_text_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/circular_view.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/circular_view.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/head_phone.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/head_phone.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/medium.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/medium.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/color_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/color_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/sub_menu.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/sub_menu.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/notification_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/notification_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/audio_icon_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/audio_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/fb_small_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/fb_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/shadow_list.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/shadow_list.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/background_back.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/background_back.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_28.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_28.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/paint_pressed.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/paint_pressed.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/likeus_on_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/likeus_on_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/move_menu_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/move_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/invite_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/invite_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_10.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_10.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/view_pop_up.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/view_pop_up.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/gallary_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/gallary_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/borderframe.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/borderframe.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/audio_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/audio_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/share_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/small.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/small.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/time_bomb_tut.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/time_bomb_tut.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/intro_create.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/intro_create.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_26.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_26.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/edit_text_line.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/edit_text_line.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_share.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/image_option_share.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_24.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_24.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/choice_selected.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/choice_selected.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/shadow_list.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/shadow_list.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/audio_icon_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/audio_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_newdraw.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/scrbble_newdraw.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/lock_menu_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/lock_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/save_canvas.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/save_canvas.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/alert_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/alert_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/appicon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/appicon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_draw.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/scrbble_draw.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/paint.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/paint.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/new_circle.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/new_circle.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/back_button_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/back_button_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/about_us_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/about_us_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/cross_audio.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/cross_audio.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/no_note_create.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/no_note_create.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/sort_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/sort_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/email_small_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/email_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/layout_shadow.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/layout_shadow.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/logout_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/logout_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_menu_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/share_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/more_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/more_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/header_search.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/header_search.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_move.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/image_option_move.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/move_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/move_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_32.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_32.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/edit_menu_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/edit_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/rate_us_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/rate_us_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/email_small_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/email_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_32.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_32.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/text_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/background_fill.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/background_fill.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/sort_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/sort_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/desc_rounded_no_padding.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/desc_rounded_no_padding.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/reminder_menu_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/reminder_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_34.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_34.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_icon_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/text_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_icon_tut.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/share_icon_tut.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/restore_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/restore_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/ic_launcher.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/no_note_create.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/no_note_create.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_delete.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/image_option_delete.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/intero_folder.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/intero_folder.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/color_header_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/color_header_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_lock.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/image_option_lock.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/create_circle.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/create_circle.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/archive_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/archive_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/choice_unselected.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/choice_unselected.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_more.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/scrbble_more.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/done_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/done_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/color_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/color_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/lock_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/lock_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/timebomb_sort_view_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/timebomb_sort_view_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/list_view_logo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/list_view_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/share_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/color_sort_view.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/color_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/check_list_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/check_list_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_bold.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/text_note_bold.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_underline.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/text_note_underline.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/unlock_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/unlock_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/alphabet_sort_view.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/alphabet_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/thumb.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/thumb.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_new_gray_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/delete_new_gray_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_icon_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_22.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_22.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/sort_pop_up.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/sort_pop_up.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_menu_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/delete_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/text_note_itlic.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_note_itlic.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_22.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_22.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/splash_logo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/splash_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/view_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/view_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/note_header_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/note_header_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_small_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/share_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/ws_small_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/ws_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/folder_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/folder_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/paint.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/paint.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/threedots.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/threedots.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/medium.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/medium.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/unlock_menu_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/unlock_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/timebomb_sort_view_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/timebomb_sort_view_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/back_icon_1.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/back_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_24.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_24.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/single_logo.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/single_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/timebomb_sort_view.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/timebomb_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_back.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/scrbble_back.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_newdraw_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/scrbble_newdraw_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/new_erase.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/new_erase.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/move_new_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/move_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/scrbble_erase.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/scrbble_erase.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/noteshare_header_logo.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/noteshare_header_logo.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/download.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/download.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/gallary_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/gallary_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/more_icon_1.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/more_icon_1.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/more_icon_2.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/more_icon_2.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/audio_play.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/audio_play.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_10.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_10.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/view_pop_up.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/view_pop_up.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/invite_small_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/invite_small_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/edit_text_line.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/edit_text_line.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/menu_hamburg.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/menu_hamburg.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/new_canvas.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/new_canvas.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/borderframe.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/borderframe.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_20.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_20.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/setting_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/setting_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_30.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/brush_30.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/background_front.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/background_front.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/alphabet_sort_view.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/alphabet_sort_view.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_new_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/delete_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/brush_14.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_14.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/lock_icon_tut.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/lock_icon_tut.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/pause_audio.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/pause_audio.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/drawable/about_us_icon.png",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/drawable/about_us_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/createdtime_sort_view.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/createdtime_sort_view.png"
+    }
+]

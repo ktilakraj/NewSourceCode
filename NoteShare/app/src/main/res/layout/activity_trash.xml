@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eNotes.noteshare.TrashActivity">
+    <include
+        android:id="@+id/mainHeadermenue"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        layout="@layout/menu_header" />
+    <LinearLayout
+        android:id="@+id/LayoutTabbedOption"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@color/header_bg"
+        android:layout_below="@+id/mainHeadermenue"
+        android:layout_height="44dp">
+        <Button
+            android:id="@+id/btnNoteClick"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@color/A8b241b"
+            android:text="Notes"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnFolderClick"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Folders"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:background="@color/header_bg"
+            android:textColor="@android:color/white"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/trashlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/LayoutTabbedOption"
+        android:layout_gravity="start"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/black"
+        android:dividerHeight="0dp"
+        android:scrollbars="none" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/LayoutTabbedOption"
+        android:background="@android:color/white"
+        android:id="@+id/LayoutDeleteNote"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageNoDelete"
+            android:layout_width="120dp"
+            android:layout_centerInParent="true"
+            android:alpha="0.1"
+            android:src="@drawable/delete_new_icon"
+            android:layout_height="120dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/imageNoDelete"
+            android:text="No Note in Trash"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:alpha="0.1"
+            android:id="@+id/textDeletedNote"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</RelativeLayout>

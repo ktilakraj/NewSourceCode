@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutAlertbox"
+    android:layout_width="100dp"
+    android:layout_height="60dp"
+    android:background="@color/ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewTitleAlert"
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:background="@color/ffffff"
+        android:gravity="left|center_vertical"
+        android:text="View By"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textViewTitleAlertMessage"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:background="@android:color/white"
+        android:gravity="left|center_vertical"
+        android:text="Sort By"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:background="@android:color/white"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/buttonAlertCancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="CANCEL" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonAlertOk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="OK" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+#Mon Aug 29 23:31:03 IST 2016
+base.0=/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_781262e7b5978495434d1e64f3e2f12a8c136ab0
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a429733be072e54402c37bc00456e01f6463ed31/classes.dex
+base.1=/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a429733be072e54402c37bc00456e01f6463ed31
+file.0=/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_781262e7b5978495434d1e64f3e2f12a8c136ab0/classes.dex

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_height="65dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_weight="0.1"
+            android:visibility="gone"
+            android:layout_margin="0dp"
+            android:background="@android:color/transparent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/elementType"
+                android:background="@android:color/holo_red_dark"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:weightSum="2"
+            android:background="@android:color/transparent"
+            android:layout_weight="1.80"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"
+                android:id="@+id/noteTitle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceListItemSmall"
+                android:text="hfdjdhjfdjf"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:id="@+id/noteTitleType" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/activated_service"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="2dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:src="@drawable/timebomb_new_icon"
+                    android:id="@+id/imageTimeBomb"
+                    android:layout_height="20dp" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:src="@drawable/lock_new_icon"
+                    android:id="@+id/imageLock"
+                    android:layout_height="20dp" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:src="@drawable/alert_new_icon"
+                    android:id="@+id/imageReminder"
+                    android:layout_height="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="80dp"
+            android:background="@android:color/transparent"
+            android:layout_weight="0.10"
+            android:layout_marginRight="-20dp"
+            android:id="@+id/layoutMoreinfo"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="3dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="13dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/sub_menu_1"
+                android:background="@android:color/transparent"
+                android:id="@+id/btnmoreOption1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

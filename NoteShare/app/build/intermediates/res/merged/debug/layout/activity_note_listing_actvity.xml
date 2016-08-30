@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    tools:context="com.eNotes.noteshare.NoteListingActvity">
+
+
+    <include layout="@layout/menu_header_new"
+        android:layout_width="match_parent"
+        android:id="@+id/header_menu"
+        android:layout_height="50dp"/>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listviewNotes"
+        android:layout_height="match_parent"
+
+        android:divider="@android:color/transparent"
+        android:layout_below="@+id/header_menu">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/LayoutNoNote"
+        android:gravity="center"
+        android:background="@color/ffffff"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/intro_create"
+            android:layout_height="100dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/intro_text_color"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal"
+            android:text="Click + to create note"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+         android:src="@drawable/create_circle"
+        android:id="@+id/btnAddNote"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp" />
+
+
+
+
+</RelativeLayout>

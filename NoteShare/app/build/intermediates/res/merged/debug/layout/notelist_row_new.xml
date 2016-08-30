@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@android:color/white"
+    android:layout_marginBottom="0dp" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_margin="5dp"
+        android:id="@+id/mainlayout"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/colorMarker1"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/text_note_row" android:id="@+id/text_note_row"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:id="@+id/showhideView"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+
+            android:weightSum="8"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_weight="1"
+                android:id="@+id/editNoteTitle"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/edit_new_icon"
+                android:layout_height="35dp" />
+
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_weight="1"
+                android:id="@+id/noteTimeBomb"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/timebomb_new_icon"
+                android:layout_height="35dp" />
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_weight="1"
+                android:id="@+id/noteremindertime"
+                android:padding="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/alert_new_icon"
+                android:layout_height="35dp" />
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_weight="1"
+                android:id="@+id/noteLock"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/lock_new_icon"
+                android:layout_height="35dp" />
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_weight="1"
+                android:id="@+id/noteunlockLock"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/unlock_new_icon"
+                android:layout_height="35dp" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:id="@+id/noteMoveToFolder"
+                android:padding="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/move_new_icon"
+                android:layout_height="35dp" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+
+                android:id="@+id/noteAddColor"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/color_new_icon"
+                android:layout_height="35dp" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_weight="1"
+                android:id="@+id/noteDelete"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delete_new_icon"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                android:layout_height="35dp" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_weight="1"
+                android:id="@+id/noteShare"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/share_menu_icon"
+                android:padding="0dp"
+                android:layout_height="35dp" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:id="@+id/colorMarker1"
+        android:background="@color/A08088A"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_alignParentStart="true"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="15dp"
+        android:id="@+id/Layouttags"
+        android:orientation="horizontal"
+        android:background="@color/A8b241b"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+
+
+        android:visibility="gone"
+        android:layout_height="20dp">
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:background="#000000"
+        android:id="@+id/layoutsepreter"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="3dp"
+        android:layout_below="@+id/mainlayout"
+        android:layout_height="0.5dp"/>
+
+
+
+
+</RelativeLayout>

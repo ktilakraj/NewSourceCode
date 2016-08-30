@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_d1ce35b08cf62320547d4f4462de0473adb871f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_528579344912a0439c098c4ccca3b20506b71c23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_ef04f97acfaebe0274684a3c5ee1665b41fd5797/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/libs/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/2/picasso-2.5.2_64b3ac707c81ac419c72f526389c4dc3dc594286/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="c9d0485c423d28fb558a14980c806b5cc9ba590e">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_781262e7b5978495434d1e64f3e2f12a8c136ab0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_2798d86077c876b9ba6ec9ecf23c7a1c34d309b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/Documents/android-sdk-macosx/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha4/constraint-layout-solver-1.0.0-alpha4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="a882fef6a6b9e3efbb0b6b001895a5fc7c35b391">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha4_44268304a7fc040cc8f234ff605a9e99fd8d1c67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="d29150edadf0f45d26f8d3d1e4f1ff9ecfc6abc8">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a429733be072e54402c37bc00456e01f6463ed31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/libs/isoparser-1.0.2.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="6d9a5c5814ec67178dd1d5a25bae874d4697a5b8">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/2/isoparser-1.0.2_b08f59a8adb706ef79cef5b3bb1fe1b23a6f9ab2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_7ef45ad4d3dc98b224d89842a8c7827f3288a8bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_c079e0ec639f0cb182c6d3539e9d619945f9893a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_7f8a50d976f3f6e4285d7cc7544f64c601ee6647/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_8feb57b9c1c3f8fc0e201c52c9140390de9f873e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tilakrajverma/NoteShare/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha4/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="23.0.1"
+        sha1="affe29a90a2a709bfd2b8d6411aa99c05a2be96f">
+        <dex dex="/Users/tilakrajverma/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha4_3a162cb2be272d4611ba32b4d52017f4c63a5230/classes.dex" />
+    </item>
+
+</items>

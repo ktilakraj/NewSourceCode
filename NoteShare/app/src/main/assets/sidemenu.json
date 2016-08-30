@@ -1,0 +1,20 @@
+{
+    "sideMenuitems": [
+                      {
+                          "menuName": "Notes",
+                          "menuid": "1"
+                      },
+                      {
+                          "menuName": "Folders",
+                          "menuid": "3"
+                      },
+                      {
+                          "menuName": "Trash",
+                          "menuid": "14"
+                      },
+                      {
+                          "menuName": "Invite Friends",
+                          "menuid": "10"
+                      }
+                      ]
+}

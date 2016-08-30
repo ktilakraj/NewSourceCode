@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/menu/poupup_menu_1.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/menu/poupup_menu_1.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/menu/poupup_menu_1.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/menu/poupup_menu_1.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/menu/poupup_menu.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/menu/poupup_menu.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/menu/poupup_menu.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/menu/poupup_menu.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/NoteShare/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/tilakrajverma/NoteShare/app/src/main/res/menu/main.xml"
+    }
+]

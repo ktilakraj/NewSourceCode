@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/EditTitle"
+        android:title="Edit Title"/>
+    <item
+        android:id="@+id/timebomb"
+        android:title="Time Bomb"/>
+    <item
+        android:id="@+id/Unlock"
+        android:title="Unlock"/>
+    <item
+        android:id="@+id/Move"
+        android:title="Move To Folder"/>
+    <item
+        android:id="@+id/Color"
+        android:title="Add Color"/>
+    <item
+        android:id="@+id/Delete"
+        android:title="Delete"/>
+    <item
+        android:id="@+id/Share"
+        android:title="Share"/>
+</menu>
