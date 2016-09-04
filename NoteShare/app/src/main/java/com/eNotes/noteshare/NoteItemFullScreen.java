@@ -21,6 +21,9 @@ import com.eNotes.datamodels.NoteListDataModel;
 import com.eNotes.notesharedatabase.DBNoteItems;
 import com.eNotes.notesharedatabase.NoteshareDatabaseHelper;
 import com.mobiapp.ventures.eNotes.R;
+import com.squareup.picasso.Picasso;
+
+import java.io.File;
 
 
 public class NoteItemFullScreen extends Activity {
@@ -40,6 +43,7 @@ public class NoteItemFullScreen extends Activity {
 		 notelistitem = DataManager.sharedDataManager()
 				.getNotelistData();
 		imageviewfullscreenmode.setImageBitmap(notelistitem.getBitmap());
+		Picasso.with(this).load(new File(notelistitem.getBitmapPath())).into(imageviewfullscreenmode);
 		imageClose=(Button) findViewById(R.id.imageClose);
 		imageDelete=(Button) findViewById(R.id.imageDelete);
 		imageClose.setOnClickListener(new OnClickListener() {

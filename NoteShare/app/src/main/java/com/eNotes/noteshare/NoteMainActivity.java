@@ -134,6 +134,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 
 	public boolean isMoreShown = false;
+	public boolean isFirstTime = true;
 	public boolean isTextmodeSelected = false;
 
 
@@ -174,6 +175,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 	public Calendar c;
 	SharedPreferences preference;
 	static String SAVELOCK = "LOCK";
+	String appendPath;
 
     @Override
     protected void onResume() {
@@ -196,9 +198,14 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 		
 
 		selectedDBNoteItem = DataManager.sharedDataManager().getSeletedDBNoteItem();
-		audioRecording(contentView);
 		initlizeUIElement(contentView);
-    //onResumeCall();
+		audioRecording(contentView);
+
+
+
+
+		DataManager.sharedDataManager().setUpUserPermission(this,3);//READ
+
 
 	}
 
@@ -212,6 +219,12 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			textViewheaderTitle.setText(""+selectedDBNoteItem.getNote_Title());
             getNoteFromDB();
 			updateButtonUI(-1);
+
+			if (layoutBlankView.getVisibility() == View.VISIBLE){
+				layoutBlankView.setVisibility(View.VISIBLE);
+			} else {
+				layoutBlankView.setVisibility(View.GONE);
+			}
 
         }catch (Exception exception)
         {
@@ -284,7 +297,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
                     String filename=elemet.getNOTE_ELEMENT_CONTENT();
 
                    // Bitmap imageBitMap=getImageFromfilePath(filename);
-					Bitmap imageBitMap=getDrawImageFromfilePath(filename);
+					String imageBitMap=getDrawImageFromfilePath(filename);
 
 
                     if (imageBitMap!=null)
@@ -293,7 +306,8 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
                         noteListdatamodel.noteType = NOTETYPE.IMAGEMODE;
 						model.setNoteElementDateTime(elemet.getNOTE_ELEMENT_DATE_TIME());
 						model.setNoteElmentId(elemet.getNOTE_ELEMENT_ID());
-                        noteListdatamodel.setBitmap(imageBitMap);
+                        //noteListdatamodel.setBitmap(imageBitMap);
+						noteListdatamodel.setBitmapPath(imageBitMap);
                         arrNoteListData.add(noteListdatamodel);
 						arrDBNoteListData.add(elemet);
                     }
@@ -310,13 +324,14 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 				{
 					String filename=elemet.getNOTE_ELEMENT_CONTENT();
 
-					Bitmap imageBitMap=getDrawImageFromfilePath(filename);
+					String imageBitMap=getDrawImageFromfilePath(filename);
 
 					if (imageBitMap!=null)
 					{
 						NoteListDataModel noteListdatamodel = new NoteListDataModel();
 						noteListdatamodel.noteType = NOTETYPE.SCRIBBLEMODE;
-						noteListdatamodel.setBitmap(imageBitMap);
+						//noteListdatamodel.setBitmap(imageBitMap);
+						noteListdatamodel.setBitmapPath(imageBitMap);
 						model.setNoteElmentId(elemet.getNOTE_ELEMENT_ID());
 						model.setNoteElementDateTime(elemet.getNOTE_ELEMENT_DATE_TIME());
 						arrNoteListData.add(noteListdatamodel);
@@ -345,7 +360,13 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 				@Override
 				public void run() {
 					adapter.notifyDataSetChanged();
-					listviewNotes.smoothScrollToPosition(arrNoteListData.size() - 1);
+					if (isFirstTime) {
+						//listviewNotes.smoothScrollToPosition(arrNoteListData.size() - 1);
+						isFirstTime=false;
+					} else {
+						listviewNotes.smoothScrollToPosition(arrNoteListData.size() - 1);
+					}
+
 
 					if (arrNoteListData.size() >0 )
 					{
@@ -367,22 +388,71 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 	}
 
-	Bitmap getDrawImageFromfilePath(String filename) {
+	String getDrawImageFromfilePath(String filename) {
 
 		String iconsStoragePath = Environment.getExternalStorageDirectory() + imageFolderPath;
 		File destination = new File(iconsStoragePath);
 
 		if(destination.exists())
 		{
-			String filePath = destination.toString() + "/"+filename;
-			Bitmap myBitmap = BitmapFactory.decodeFile(filePath);
-			return  myBitmap;
+			String filePath = destination.toString() +File.separator+filename;
+			//Bitmap myBitmap1 = BitmapFactory.decodeFile(filePath);
+			return  filePath;
 		}
 
 
 		return  null;
 	}
 
+
+
+	private boolean storeCamraImage(Bitmap imageData,String imageType) {
+		//get path to external storage (SD card)
+
+		Log.d("Camra Path:",""+DataManager.sharedDataManager().getCamraAppendPath());
+
+
+		// String iconsStoragePath = Environment.getExternalStorageDirectory() + "/eNotes/Images";
+//		String iconsStoragePath = Environment.getExternalStorageDirectory() + imageFolderPath;
+//
+//		File sdIconStorageDir = new File(iconsStoragePath);
+//
+//		//create storage directories, if they don't exist
+//		sdIconStorageDir.mkdirs();
+
+		try {
+//			String filePath = sdIconStorageDir.toString() + "/"+appendPath;
+//			FileOutputStream fileOutputStream = new FileOutputStream(filePath);
+//
+//			BufferedOutputStream bos = new BufferedOutputStream(fileOutputStream);
+//			//choose another format if PNG doesn't suit you
+//			imageData.compress(Bitmap.CompressFormat.JPEG, 100, bos);
+//
+//			bos.flush();
+//			bos.close();
+
+			androidOpenDbHelperObj.noteElementdatabaseInsertion(selectedDBNoteItem.getNote_Id(), DataManager.sharedDataManager().getCamraAppendPath(), imageType, "", "");
+
+		}  catch (Exception e) {
+			Log.w("TAG", "Error saving image file: " + e.getMessage());
+			return false;
+		}
+		return true;
+	}
+
+	void createImageFolder()
+	{
+		String iconsStoragePath = Environment.getExternalStorageDirectory() + imageFolderPath;
+
+		File sdIconStorageDir = new File(iconsStoragePath);
+
+		//create storage directories, if they don't exist
+		if (!sdIconStorageDir.exists()) {
+
+			sdIconStorageDir.mkdirs();
+		}
+
+	}
 
 	private boolean storeImage(Bitmap imageData,String imageType) {
 		//get path to external storage (SD card)
@@ -406,7 +476,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 		sdIconStorageDir.mkdirs();
 
 		try {
-			String filePath = sdIconStorageDir.toString() + "/"+appendPath;
+			String filePath = sdIconStorageDir.toString() +File.separator+appendPath;
 			FileOutputStream fileOutputStream = new FileOutputStream(filePath);
 
 			BufferedOutputStream bos = new BufferedOutputStream(fileOutputStream);
@@ -577,7 +647,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 	void initlizeAudiorecoder() {
 
-		LayoutAudioRecording.setVisibility(View.VISIBLE);
+
 		SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyyHH_mm_ss");
 		String date = sdf.format(new Date(System.currentTimeMillis()));
 
@@ -657,11 +727,14 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			@Override
 			public void onClick(View v) {
 
+				//Toast.makeText(NoteMainActivity.this, "DJFHJDHF", Toast.LENGTH_SHORT).show();
 
-				LayoutAudioRecording.setVisibility(View.GONE);
 				isMoreShown=false;
 				layout_note_more_Info.setVisibility(View.GONE);
+				LayoutAudioRecording.setVisibility(View.GONE);
 				layoutBlankView.setVisibility(View.GONE);
+
+
 				updateButtonUI(-1);
 
 			}
@@ -822,9 +895,11 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			public void onClick(View arg0) {
 
 			try {
+				LayoutAudioRecording.setVisibility(View.GONE);
+				layoutBlankView.setVisibility(View.GONE);
 				isMoreShown=false;
 				layout_note_more_Info.setVisibility(View.GONE);
-				progressRecord1.setVisibility(View.VISIBLE);
+				progressRecord1.setVisibility(View.GONE);
 
 				if (myAudioRecorder==null) {
 
@@ -861,7 +936,8 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 				listviewNotes.smoothScrollToPosition(currentAudioIndex);
 
 
-				LayoutAudioRecording.setVisibility(View.GONE);
+
+
 				progressRecordtext.setText("");
 
 				if (dbNoteItemElement!=null)
@@ -870,10 +946,12 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 				}
 				blinkAnimation(progressRecordtext,false);
 				getNoteFromDB();
+
 				updateButtonUI(-1);
 			}
 			catch (Exception e) {
-
+				LayoutAudioRecording.setVisibility(View.GONE);
+				layoutBlankView.setVisibility(View.GONE);
 				e.printStackTrace();
 			}
 
@@ -1111,8 +1189,12 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				if (LayoutAudioRecording.getVisibility() != View.VISIBLE){
+				if (layoutBlankView.getVisibility() == View.VISIBLE){
+					layoutBlankView.setVisibility(View.VISIBLE);
+					LayoutAudioRecording.setVisibility(View.VISIBLE);
+				} else {
 					layoutBlankView.setVisibility(View.GONE);
+					LayoutAudioRecording.setVisibility(View.GONE);
 				}
 				layout_note_more_Info.setVisibility(View.GONE);
 				imageButtonsquence.setVisibility(View.GONE);
@@ -1132,8 +1214,12 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				// openSlideMenu();
-				if (LayoutAudioRecording.getVisibility() != View.VISIBLE){
+				if (layoutBlankView.getVisibility() == View.VISIBLE){
+					layoutBlankView.setVisibility(View.VISIBLE);
+					LayoutAudioRecording.setVisibility(View.VISIBLE);
+				} else {
 					layoutBlankView.setVisibility(View.GONE);
+					LayoutAudioRecording.setVisibility(View.GONE);
 				}
 				isTextmodeSelected = false;
 				layout_note_more_Info.setVisibility(View.GONE);
@@ -1153,10 +1239,13 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			public void onClick(View v) 
 			{
 				// TODO Auto-generated method stub
-				if (LayoutAudioRecording.getVisibility() != View.VISIBLE){
+				if (layoutBlankView.getVisibility() == View.VISIBLE){
+					layoutBlankView.setVisibility(View.VISIBLE);
+					LayoutAudioRecording.setVisibility(View.VISIBLE);
+				} else {
 					layoutBlankView.setVisibility(View.GONE);
+					LayoutAudioRecording.setVisibility(View.GONE);
 				}
-
 				imageButtoncalander.setVisibility(View.GONE);
 				layout_note_more_Info.setVisibility(View.GONE);
 
@@ -1182,7 +1271,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 				LayoutNoNoteElement.setVisibility(View.GONE);
 
-
+				DataManager.sharedDataManager().setUpUserPermission(NoteMainActivity.this,1);//RECORD
 				
 
 				System.out.println("audio mode");
@@ -1216,15 +1305,20 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				if (LayoutAudioRecording.getVisibility() != View.VISIBLE){
+
+				if (layoutBlankView.getVisibility() == View.VISIBLE){
+					layoutBlankView.setVisibility(View.VISIBLE);
+					LayoutAudioRecording.setVisibility(View.VISIBLE);
+				} else {
 					layoutBlankView.setVisibility(View.GONE);
+					LayoutAudioRecording.setVisibility(View.GONE);
 				}
 
 				System.out.println("image  mode");
 				LayoutNoNoteElement.setVisibility(View.GONE);
 				updateButtonUI(R.id.imageButtonImageMode);
 
-
+				DataManager.sharedDataManager().setUpUserPermission(NoteMainActivity.this,3);//WRITE
 
 
 				showImageChooserAlertWith("", NoteMainActivity.this);
@@ -1241,8 +1335,13 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 
-				if (LayoutAudioRecording.getVisibility() != View.VISIBLE){
+				DataManager.sharedDataManager().setUpUserPermission(NoteMainActivity.this,2);//WRITE
+				if (layoutBlankView.getVisibility() == View.VISIBLE){
+					layoutBlankView.setVisibility(View.VISIBLE);
+					LayoutAudioRecording.setVisibility(View.VISIBLE);
+				} else {
 					layoutBlankView.setVisibility(View.GONE);
+					LayoutAudioRecording.setVisibility(View.GONE);
 				}
 				updateButtonUI(-1);
 				Intent intent =new Intent(NoteMainActivity.this,NewDrawingActivity.class);
@@ -1254,15 +1353,17 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				if (LayoutAudioRecording.getVisibility() != View.VISIBLE){
+				if (layoutBlankView.getVisibility() == View.VISIBLE){
+					layoutBlankView.setVisibility(View.VISIBLE);
+					LayoutAudioRecording.setVisibility(View.VISIBLE);
+				} else {
 					layoutBlankView.setVisibility(View.GONE);
+					LayoutAudioRecording.setVisibility(View.GONE);
 				}
 				LayoutNoNoteElement.setVisibility(View.GONE);
 
 				updateButtonUI(R.id.imageButtonShareMode);
 				System.out.println("share mode");
-
-
 
 				imageButtonsquence.setVisibility(View.GONE);
 				layout_note_more_Info.setVisibility(View.GONE);
@@ -1276,8 +1377,12 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				if (LayoutAudioRecording.getVisibility() != View.VISIBLE){
+				if (layoutBlankView.getVisibility() == View.VISIBLE){
+					layoutBlankView.setVisibility(View.VISIBLE);
+					LayoutAudioRecording.setVisibility(View.VISIBLE);
+				} else {
 					layoutBlankView.setVisibility(View.GONE);
+					LayoutAudioRecording.setVisibility(View.GONE);
 				}
 				LayoutNoNoteElement.setVisibility(View.GONE);
 				updateButtonUI(R.id.imageButtonTextMode);
@@ -1300,8 +1405,12 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				if (LayoutAudioRecording.getVisibility() != View.VISIBLE){
+				if (layoutBlankView.getVisibility() == View.VISIBLE){
+					layoutBlankView.setVisibility(View.VISIBLE);
+					LayoutAudioRecording.setVisibility(View.VISIBLE);
+				} else {
 					layoutBlankView.setVisibility(View.GONE);
+					LayoutAudioRecording.setVisibility(View.GONE);
 				}
 				LayoutNoNoteElement.setVisibility(View.GONE);
 				imageButtonsquence.setVisibility(View.GONE);
@@ -1420,9 +1529,13 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 	void updateButtonUI(int id) {
 
-		layoutBlankView.setVisibility(View.GONE);
+
 		if (LayoutAudioRecording.getVisibility() == View.VISIBLE){
 			layoutBlankView.setVisibility(View.VISIBLE);
+			LayoutAudioRecording.setVisibility(View.VISIBLE);
+		} else  {
+			layoutBlankView.setVisibility(View.GONE);
+			LayoutAudioRecording.setVisibility(View.GONE);
 		}
 		imageButtonAudioMode.setBackgroundColor(getResources().getColor(
 				R.color.header_bg));
@@ -1497,9 +1610,30 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			public void onClick(DialogInterface dialog, int item) {
 				if (items[item].equals("Take Photo")) {
 
-					Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-					startActivityForResult(intent, REQUEST_CAMERA);
 
+
+
+					String filename;
+
+					Date date = new Date();
+					SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
+					filename =  sdf.format(date);
+					appendPath= filename+".jpg";
+
+					DataManager.sharedDataManager().setCamraAppendPath(appendPath);
+
+					// String iconsStoragePath = Environment.getExternalStorageDirectory() + "/eNotes/Images";
+					String iconsStoragePath = Environment.getExternalStorageDirectory() + imageFolderPath+File.separator+appendPath;
+
+					File sdIconStorageDir = new File(iconsStoragePath);
+					//create storage directories, if they don't exist
+					sdIconStorageDir.mkdirs();
+
+					Uri tempUri=Uri.fromFile(sdIconStorageDir);
+
+					Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+					intent.putExtra(MediaStore.EXTRA_OUTPUT,tempUri);
+					startActivityForResult(intent, REQUEST_CAMERA);
 
 
 				} else if (items[item].equals("Choose from Gallary")) {
@@ -1531,9 +1665,6 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 			if (requestCode == REQUEST_CAMERA)
 			{
-
-				String filename="image_"+System.currentTimeMillis()+".jpg";;
-
 				Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
 				//ByteArrayOutputStream bytes = new ByteArrayOutputStream();
 				//thumbnail.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
@@ -1652,6 +1783,30 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 				// System.exit(0);
 				Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 				startActivityForResult(intent, REQUEST_CAMERA);
+
+				createImageFolder();
+
+				/*String filename;
+
+				Date date = new Date();
+				SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
+				filename =  sdf.format(date);
+				appendPath= filename+".jpg";
+
+				DataManager.sharedDataManager().setCamraAppendPath(appendPath);
+
+				// String iconsStoragePath = Environment.getExternalStorageDirectory() + "/eNotes/Images";
+				String iconsStoragePath = Environment.getExternalStorageDirectory() + imageFolderPath+File.separator+appendPath;
+
+				File sdIconStorageDir = new File(iconsStoragePath);
+				//create storage directories, if they don't exist
+
+
+				Uri tempUri=Uri.fromFile(sdIconStorageDir);
+
+				Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+				intent.putExtra(MediaStore.EXTRA_OUTPUT,tempUri);
+				startActivityForResult(intent, REQUEST_CAMERA);*/
 
 				dialog.dismiss();
 

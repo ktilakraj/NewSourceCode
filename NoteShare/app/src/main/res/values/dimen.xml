@@ -55,5 +55,6 @@
 
     <dimen name="large_brush_color">24dp</dimen>
     <integer name="large_brush_color">24</integer>
+    <dimen name="expandiconsize">25dp</dimen>
 
 </resources>

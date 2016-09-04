@@ -1,6 +1,10 @@
 package com.eNotes.dataAccess;
 
+import android.Manifest;
+import android.app.Activity;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
 import com.eNotes.datamodels.NOTETYPE;
@@ -25,6 +29,16 @@ public class DataManager
 	public NOTETYPE SELECTED_TEXT_OPTION;
 	public SideMenuitems seletedListNoteItem;
 	public DBNoteItems seletedDBNoteItem;
+
+	public String getCamraAppendPath() {
+		return camraAppendPath;
+	}
+
+	public void setCamraAppendPath(String camraAppendPath) {
+		this.camraAppendPath = camraAppendPath;
+	}
+
+	public String camraAppendPath;
 
 	public int getSelectedItemIndex() {
 		return selectedItemIndex;
@@ -184,4 +198,41 @@ public class DataManager
 		return outputDate;
 
 	}
+
+	public  void  setUpUserPermission(Activity context,int requestCode)
+	{
+		switch (requestCode) {
+
+			case 1:
+			{
+				if (ActivityCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+					final String[] permissions = new String[]{Manifest.permission.RECORD_AUDIO};
+					ActivityCompat.requestPermissions(context, permissions, 0);
+				}
+			}
+			break;
+			case 3:
+			{
+				if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+					final String[] permissions = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE};
+					ActivityCompat.requestPermissions(context, permissions, 0);
+				}
+			}
+			break;
+			case 2:
+			{
+				if (ActivityCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+					final String[] permissions = new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE};
+					ActivityCompat.requestPermissions(context, permissions, 0);
+				}
+			}
+			break;
+
+		}
+
+
+
+
+	}
+
 }

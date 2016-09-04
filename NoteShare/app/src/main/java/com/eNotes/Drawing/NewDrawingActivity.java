@@ -1,6 +1,5 @@
 package com.eNotes.Drawing;
 
-import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,6 +9,7 @@ import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,7 +34,7 @@ import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class NewDrawingActivity extends Activity {
+public class NewDrawingActivity extends AppCompatActivity {
 
 
     private CanvasView canvas = null;
@@ -51,13 +51,15 @@ public class NewDrawingActivity extends Activity {
     static  String imageFilePath="/eNote/Images/";
     static  String imageFolderPath="/eNote/Images";
 
-
+    Button btnNew,btnUndo,btnRedo;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.newdrawing_main);
+        DataManager.sharedDataManager().setUpUserPermission(this,2);//READ
         mainHeadermenue=(RelativeLayout) findViewById(R.id.mainHeadermenue);
         textView=(TextView) mainHeadermenue.findViewById(R.id.textView);
         textView.setText("Drawing");
@@ -89,13 +91,37 @@ public class NewDrawingActivity extends Activity {
             }
         });
 
+        btnNew = (Button) findViewById(R.id.newDraw);
+        btnRedo = (Button) findViewById(R.id.redo);
+        btnUndo = (Button) findViewById(R.id.undo);
+
         setupcolorLayout();
 
         updateViewOnSeekProgress();
         addColorToCircle();
         databaseInitlization();
 
+        if (canvas.isCanvasDrawn == false) {
+
+            btnNew.setVisibility(View.GONE);
+            btnUndo.setVisibility(View.GONE);
+            btnRedo.setVisibility(View.GONE);
+        }
+
+
+        canvas.setOnTouchCanvas(new CanvasView.OnTouchCanvas() {
+            @Override
+            public void onDrawCanvasByUser(boolean drawn) {
+                btnNew.setVisibility(View.VISIBLE);
+                btnUndo.setVisibility(View.VISIBLE);
+                btnRedo.setVisibility(View.VISIBLE);
+            }
+        });
+
+
     }
+
+
 
     void databaseInitlization()
     {
@@ -126,7 +152,7 @@ public class NewDrawingActivity extends Activity {
             }
         },canvas.getPaintStrokeColor());
 
-        layoutColor.addView(viewColorpicker, 1, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 240));
+        layoutColor.addView(viewColorpicker, 1, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 300));
 
         LayoutInflater vi = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View viewSep = vi.inflate(R.layout.seprator_layout, null);
@@ -174,7 +200,7 @@ public class NewDrawingActivity extends Activity {
             }
             break;
 
-            case R.id.clearCanvas: {
+            case R.id.undo: {
                 //customCanvas.clearCanvas();
                 Log.v("the option","clear"); //Undo
                 canvas.undo();
@@ -186,7 +212,7 @@ public class NewDrawingActivity extends Activity {
                 }
             }
             break;
-            case R.id.drawSave: {
+            case R.id.redo: {
                 Log.v("the option","save"); //redo
                 canvas.redo();
                 if (layoutStroke.getVisibility() == View.VISIBLE) {

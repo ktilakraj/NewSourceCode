@@ -27,9 +27,9 @@ public class NewColorPickerView extends View {
     private OnColorChangedListener mListener;
     private boolean mTrackingCenter;
     private boolean mHighlightCenter;
-    private static final int CENTER_X = 80;
-    private static final int CENTER_Y = 80;
-    private static final int CENTER_RADIUS = 32;
+    private static final int CENTER_X = 350;
+    private static final int CENTER_Y = 350;
+    private static final int CENTER_RADIUS = 60;
 
     NewColorPickerView(Context c, OnColorChangedListener l, int color) {
         super(c);
@@ -43,7 +43,7 @@ public class NewColorPickerView extends View {
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setShader(s);
         mPaint.setStyle(Paint.Style.STROKE);
-        mPaint.setStrokeWidth(32);
+        mPaint.setStrokeWidth(60);
 
         mCenterPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mCenterPaint.setColor(color);

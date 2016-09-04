@@ -247,7 +247,7 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 					System.out.println("folder");
 
 					startActivity(new Intent(this, NewFolderMainActivity.class));
-					finish();
+					//finish();
 				}
 				break;
 
@@ -327,7 +327,7 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 				case 14: {
 					System.out.println("Trash");
 					startActivity(new Intent(this, TrashActivity.class));
-					finish();
+					//finish();
 				}
 				break;
 

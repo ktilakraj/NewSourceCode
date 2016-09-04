@@ -196,7 +196,7 @@ public class NoteListingActvity extends DrawerActivity {
                             if (arrDataFolder.size() > 0) {
                                 showMoveToFolderDialog("", NoteListingActvity.this, item1);
                             } else {
-                                showAlertWith("Please create at least one folder", NoteListingActvity.this);
+                                showAlertWithFolder("Please create at least one folder", NoteListingActvity.this);
                             }
                         }
                     }
@@ -879,6 +879,59 @@ public class NoteListingActvity extends DrawerActivity {
         }
     }
 
+    void showAlertWithFolder(String message, Context context) {
+
+        final Dialog dialog = new Dialog(context);
+
+        LayoutInflater inflater = (LayoutInflater) this
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        // inflate your activity layout here!
+        View contentView = inflater.inflate(R.layout.alert_view, null, false);
+
+        TextView textViewTitleAlert = (TextView) contentView
+                .findViewById(R.id.textViewTitleAlert);
+        textViewTitleAlert.setText("Alert");
+        textViewTitleAlert.setTextColor(Color.WHITE);
+        TextView textViewTitleAlertMessage = (TextView) contentView
+                .findViewById(R.id.textViewTitleAlertMessage);
+        textViewTitleAlertMessage.setText(message);
+
+        Button buttonAlertCancel = (Button) contentView
+                .findViewById(R.id.buttonAlertCancel);
+        Button buttonAlertOk = (Button) contentView
+                .findViewById(R.id.buttonAlertOk);
+        buttonAlertCancel.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                dialog.dismiss();
+
+
+
+            }
+        });
+        buttonAlertOk.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+               // System.exit(0);
+                dialog.dismiss();
+                startActivity(new Intent(NoteListingActvity.this, NewFolderMainActivity.class));
+
+
+            }
+        });
+
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setCancelable(false);
+
+        dialog.setContentView(contentView);
+        dialog.show();
+
+    }
+
     void showAlertWith(String message, Context context) {
 
         final Dialog dialog = new Dialog(context);
@@ -999,6 +1052,66 @@ public class NoteListingActvity extends DrawerActivity {
 
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCancelable(true);
+
+        dialog.setContentView(contentView);
+        dialog.show();
+
+    }
+
+
+    void showAlertWithBackPress(String message, Context context) {
+
+        final Dialog dialog = new Dialog(context);
+
+
+        LayoutInflater inflater = (LayoutInflater) this
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        // inflate your activity layout here!
+        View contentView = inflater.inflate(R.layout.alert_view_back, null, false);
+
+        TextView textViewTitleAlert = (TextView) contentView
+                .findViewById(R.id.textViewTitleAlert);
+        textViewTitleAlert.setBackgroundColor(Color.WHITE);
+        textViewTitleAlert.setText("");
+        textViewTitleAlert.setTextColor(Color.WHITE);
+        textViewTitleAlert.setVisibility(View.GONE);
+        TextView textViewTitleAlertMessage = (TextView) contentView
+                .findViewById(R.id.textViewTitleAlertMessage);
+        textViewTitleAlertMessage.setText("Do you want to exit?");
+
+        Button buttonAlertCancel = (Button) contentView
+                .findViewById(R.id.buttonAlertCancel);
+        Button buttonAlertOk = (Button) contentView
+                .findViewById(R.id.buttonAlertOk);
+        buttonAlertCancel.setText("No");
+        buttonAlertOk.setText("Yes");
+        buttonAlertCancel.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                dialog.dismiss();
+
+
+            }
+        });
+        buttonAlertOk.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                //
+                dialog.dismiss();
+                finish();
+                System.exit(0);
+
+
+
+            }
+        });
+
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setCancelable(false);
 
         dialog.setContentView(contentView);
         dialog.show();
@@ -2262,9 +2375,6 @@ public class NoteListingActvity extends DrawerActivity {
                 editor.putString(SAVELOCK, textLock.getText() + "");
                 editor.commit();
 
-
-
-
                 if (islock == true) {
                     selectedDbItem.setNote_Lock_Status("1");
                     boolean status = androidOpenDbHelperObj.updateNoteitems_Notelock(selectedDbItem);
@@ -2304,10 +2414,16 @@ public class NoteListingActvity extends DrawerActivity {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+
+        showAlertWithBackPress("",this);
+
+    }
 
     @Override
     protected void onResume() {
-        //DataManager.sharedDataManager().setSelectedItemIndex(-1);
+        //DataManager.sharedDataManagtr().setSelectedItemIndex(-1);
         super.onResume();
         getallNotes();
         Log.d("Onresume", "Onresume Call");
