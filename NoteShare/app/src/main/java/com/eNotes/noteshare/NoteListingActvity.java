@@ -37,6 +37,9 @@ import com.eNotes.colorPicker.ColorPickerDialog;
 import com.eNotes.dataAccess.DataManager;
 import com.eNotes.notesharedatabase.DBNoteItemElement;
 import com.eNotes.notesharedatabase.DBNoteItems;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -87,6 +90,8 @@ public class NoteListingActvity extends DrawerActivity {
 
     LinearLayout LayoutNoNote;
 
+    private AdView mAdView;
+    private Button btnFullscreenAd;
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -316,6 +321,18 @@ public class NoteListingActvity extends DrawerActivity {
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        loadAds();
+    }
+
+    void  loadAds()
+    {
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-4042620180347128~4456337699");
+
+
+        mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+        mAdView.loadAd(adRequest);
     }
 
     private void showColorPickerDialogDemo(final DBNoteItems items) {
@@ -1342,9 +1359,9 @@ public class NoteListingActvity extends DrawerActivity {
 
 
                     if (status == true) {
-                        Toast.makeText(NoteListingActvity.this,
-                                "data inserted successfully",
-                                Toast.LENGTH_SHORT).show();
+                        //.makeText(NoteListingActvity.this,
+                               // "data inserted successfully",
+                               // Toast.LENGTH_SHORT).show();
 
 
                         ArrayList<DBNoteItems> selectecitem_list = androidOpenDbHelperObj.getAllNotesWithNote_Id(selectedItem.getNote_Id());
@@ -1658,9 +1675,9 @@ public class NoteListingActvity extends DrawerActivity {
 
 
                     if (status == true) {
-                        Toast.makeText(NoteListingActvity.this,
-                                "data inserted successfully",
-                                Toast.LENGTH_SHORT).show();
+                       // Toast.makeText(NoteListingActvity.this,
+                               // "data inserted successfully",
+                               // Toast.LENGTH_SHORT).show();
 
                         getNoteWithTitle(textViewTitleAlertMessage.getText()
                                 .toString());
@@ -2053,7 +2070,7 @@ public class NoteListingActvity extends DrawerActivity {
             Date timebombdate = formatter.parse(seletecdFinal);
             String strDate = formatter.format(timebombdate);
 
-            Toast.makeText(NoteListingActvity.this, "the final time bomb :" + strDate, Toast.LENGTH_LONG).show();
+            //Toast.makeText(NoteListingActvity.this, "the final time bomb :" + strDate, Toast.LENGTH_LONG).show();
 
             selectedDbItem.setNote_Reminder_Time(strDate);
             boolean status = androidOpenDbHelperObj.updateNoteitems_ReminderTime(selectedDbItem);
@@ -2096,7 +2113,7 @@ public class NoteListingActvity extends DrawerActivity {
             Date timebombdate = formatter.parse(seletecdFinal);
             String strDate = formatter.format(timebombdate);
 
-            Toast.makeText(NoteListingActvity.this, "the final time bomb :" + strDate, Toast.LENGTH_LONG).show();
+          //  Toast.makeText(NoteListingActvity.this, "the final time bomb :" + strDate, Toast.LENGTH_LONG).show();
 
             selectedDbItem.setNote_TimeBomb(strDate);
             boolean status = androidOpenDbHelperObj.updateNoteitems_timeBomb(selectedDbItem);
@@ -2318,7 +2335,7 @@ public class NoteListingActvity extends DrawerActivity {
             if (!preference.getString(SAVELOCK, "").equalsIgnoreCase("")) {
                 if (preference.getString(SAVELOCK, "").equalsIgnoreCase(textLock.getText().toString())) {
 
-                    Toast.makeText(NoteListingActvity.this, "Password matched,note Open.", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(NoteListingActvity.this, "Password matched,note Open.", Toast.LENGTH_SHORT).show();
                     dialog.dismiss();
 
                     if (isOpenLockedNote == false) {
@@ -2417,8 +2434,13 @@ public class NoteListingActvity extends DrawerActivity {
     @Override
     public void onBackPressed() {
 
-        showAlertWithBackPress("",this);
+        if(isfolderId == false) {
 
+            showAlertWithBackPress("",this);
+        }
+        else  {
+            finish();
+        }
     }
 
     @Override
@@ -2427,6 +2449,9 @@ public class NoteListingActvity extends DrawerActivity {
         super.onResume();
         getallNotes();
         Log.d("Onresume", "Onresume Call");
+        if (mAdView != null) {
+            mAdView.resume();
+        }
 
     }
 
@@ -2468,5 +2493,22 @@ public class NoteListingActvity extends DrawerActivity {
         );
         AppIndex.AppIndexApi.end(client, viewAction);
         client.disconnect();
+    }
+
+    @Override
+    public void onPause() {
+        if (mAdView != null) {
+            mAdView.pause();
+        }
+        super.onPause();
+    }
+
+
+    @Override
+    public void onDestroy() {
+        if (mAdView != null) {
+            mAdView.destroy();
+        }
+        super.onDestroy();
     }
 }

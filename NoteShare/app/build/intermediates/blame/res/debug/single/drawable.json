@@ -20,6 +20,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/color_new_icon.png"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_spinner_ab_holo_dark.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/circle.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/circle.xml"
     },
@@ -76,6 +80,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/image_option_delete.png"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/pintrest_view_logo.png",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/pintrest_view_logo.png"
     },
@@ -88,12 +96,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/new_paint.png"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/invite_icon.png",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/invite_icon.png"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/sub_menu.png",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/sub_menu.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/invite_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/invite_icon.png"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
@@ -148,12 +156,20 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/head_phone.png"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_ic_clear.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/move_menu_icon.png",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/move_menu_icon.png"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/notification_icon.png",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/notification_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_search_dropdown_dark.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/fb_small_icon.png",
@@ -248,6 +264,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/brush_12.png"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_spinner_ab_holo_light.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
@@ -288,12 +308,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_icon_2.png"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/appicon.png",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/appicon.png"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/underline_text.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/underline_text.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/appicon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/appicon.png"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/progess_fill.xml",
@@ -352,6 +372,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/cross_audio.png"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_dark.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_holo_dark.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_dialog_material_background_dark.xml"
     },
@@ -384,12 +408,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/header_search.png"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_timebomb.png",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/image_option_timebomb.png"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/shadow.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/shadow.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/image_option_timebomb.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/image_option_timebomb.png"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/record_start_update.png",
@@ -552,12 +576,16 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/send_feedback_icon.png",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/send_feedback_icon.png"
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/alert_border.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/alert_border.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/delete_new_gray_icon.png",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/delete_new_gray_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/send_feedback_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/send_feedback_icon.png"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/share_icon_1.png",
@@ -608,6 +636,14 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/modifiedtime_sort_view.png"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_ab_holo.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_tab_indicator_ab_holo.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_item_background_holo_dark.xml"
     },
@@ -622,6 +658,10 @@
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/unlock_menu_icon.png",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/unlock_menu_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_holo_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_ic_clear_holo_light.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/back_icon_1.png",
@@ -658,6 +698,10 @@
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/move_new_icon.png",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/move_new_icon.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_search_dropdown_light.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/threedots.png",
@@ -698,6 +742,10 @@
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/desc_rounded_no_padding.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/desc_rounded_no_padding.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_light.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_right_holo_light.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/desc_rounded_no_padding_black.xml",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">eNote</string>
+    <string name="app_name">mobiNote</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="splashText">UrbanShopping</string>
@@ -171,5 +171,11 @@ WINDSONG
     <string name="date_button_set">Set Date</string>
     <string name="date_view_set">The Date is: </string>
     <string name="date_selected"></string>
+
+    <!-- AdMob ad unit IDs -->
+    <!--ca-app-pub-3940256099942544/6300978111     test-->
+    <!--ca-app-pub-4042620180347128/8886537294     live-->
+    <string name="banner_home_footer">ca-app-pub-4042620180347128/8886537294</string>
+    <string name="interstitial_full_screen">ca-app-pub-4042620180347128/5933070896</string>
 
 </resources>

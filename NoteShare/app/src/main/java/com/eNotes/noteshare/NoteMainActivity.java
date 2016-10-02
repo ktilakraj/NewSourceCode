@@ -78,47 +78,25 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 	public ImageButton imageButtonTextMode, imageButtonImageMode,
 			imageButtonPaintMode, imageButtonAudioMode, imageButtonShareMode,
 			imageButtonMoreMode;
-
 	MediaPlayer mediaPlayer;// = new MediaPlayer();
-
-
 	public TextView textViewheaderTitle, progressRecordtext;
 	public RelativeLayout layoutHeader;
-
 	public int currentAudioIndex = 0;
-
-
-
 	ImageButton buttonPlay;
 	ImageButton buttonStop;
 	ImageButton buttonRecord, buttonPause, buttonRecordPause;
-
 	SeekBar progressRecord1;
 	RelativeLayout LayoutAudioRecording;
-
-
-
-
-
 	public LinearLayout  layout_note_more_Info ,layoutBlankView;
 	public  RelativeLayout LayoutNoNoteElement;
-
-	public TextView textViewAdd, textViewDuration;
-
+	public TextView textViewDuration;
 	final Context context = this;
 	public ArrayList<NoteListDataModel> arrNoteListData;
 	public ArrayList<DBNoteItemElement> arrDBNoteListData;
-
 	public ListView listviewNotes;
 	public NotesListAdapter adapter;
 	private static final int SELECT_PICTURE = 1;
 	private static final int REQUEST_CAMERA = 2;
-
-
-
-
-
-
 	boolean isRecordingAudio = false;
 	private MediaRecorder myAudioRecorder;
 	View contentView;
@@ -640,13 +618,15 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 	}
 
+	private void updateItemAtPosition(int position) {
 
+		int visiblePosition = listviewNotes.getFirstVisiblePosition();
+		View view = listviewNotes.getChildAt(position - visiblePosition);
+		listviewNotes.getAdapter().getView(position, view, listviewNotes);
 
-
-
+	}
 
 	void initlizeAudiorecoder() {
-
 
 		SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyyHH_mm_ss");
 		String date = sdf.format(new Date(System.currentTimeMillis()));
@@ -727,13 +707,10 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			@Override
 			public void onClick(View v) {
 
-				//Toast.makeText(NoteMainActivity.this, "DJFHJDHF", Toast.LENGTH_SHORT).show();
-
 				isMoreShown=false;
 				layout_note_more_Info.setVisibility(View.GONE);
 				LayoutAudioRecording.setVisibility(View.GONE);
 				layoutBlankView.setVisibility(View.GONE);
-
 
 				updateButtonUI(-1);
 
@@ -996,7 +973,9 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 				Toast.makeText(NoteMainActivity.this, "Recording started",
 						Toast.LENGTH_SHORT).show();
-				progressRecordtext.setText("Recording...");
+				progressRecordtext.setText("REC.");
+				progressRecordtext.setTextColor(Color.RED);
+
 
 				if (arrNoteListData.size() > 0) {
 					currentAudioIndex = arrNoteListData.size();

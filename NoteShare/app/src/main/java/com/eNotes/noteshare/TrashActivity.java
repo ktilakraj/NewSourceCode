@@ -19,6 +19,9 @@ import android.widget.Toast;
 import com.eNotes.adpters.TrashAdapter;
 import com.eNotes.notesharedatabase.DBNoteItems;
 import com.eNotes.notesharedatabase.NoteshareDatabaseHelper;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.mobiapp.ventures.eNotes.R;
 
 import java.util.ArrayList;
@@ -38,6 +41,8 @@ public class TrashActivity extends DrawerActivity {
     private TrashAdapter trashAdapter;
 
     private  int selectedTabs=R.id.btnNoteClick;
+    private AdView mAdView;
+    private Button btnFullscreenAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +53,17 @@ public class TrashActivity extends DrawerActivity {
         View contentView = inflater.inflate(R.layout.activity_trash, null, false);
         mDrawerLayout.addView(contentView, 0);
         initlizeUIElement(contentView);
+
+        loadAds();
+    }
+
+    void  loadAds()
+    {
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-4042620180347128~4456337699");
+        mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .build();
+        mAdView.loadAd(adRequest);
     }
 
     void initlizeUIElement(View contentview) {

@@ -139,14 +139,7 @@
         </LinearLayout>
     </LinearLayout>
     <!-- ALL BOTTOM MENU -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:background="@color/A8b241b"
-        android:id="@+id/layoutBlankView"
-        android:orientation="horizontal"
-        android:visibility="visible"
-        android:layout_below="@+id/mainHeadermenue"
-        android:layout_height="50dp"/>
+
 
 
     <ListView
@@ -179,14 +172,24 @@
 
 
 
-    <include
-        android:id="@+id/LayoutAudioRecording"
-         android:layout_height="50dp"
-         layout="@layout/audiomainrecord_layout"
+    <LinearLayout
         android:layout_width="match_parent"
+        android:background="@color/A8b241b"
+        android:id="@+id/layoutBlankView"
+        android:orientation="horizontal"
         android:visibility="gone"
         android:layout_below="@+id/mainHeadermenue"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_height="50dp">
+        <include
+            android:id="@+id/LayoutAudioRecording"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            layout="@layout/audiomainrecord_layout"
+            android:layout_width="match_parent"
+            />
+
+    </LinearLayout>
 
 
     <RelativeLayout
