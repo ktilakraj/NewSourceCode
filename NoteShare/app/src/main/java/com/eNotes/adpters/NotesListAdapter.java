@@ -23,7 +23,9 @@ import com.eNotes.dataAccess.DataManager;
 import com.eNotes.datamodels.NoteListDataModel;
 import com.eNotes.noteshare.NoteMainActivity;
 import com.mobiapp.ventures.eNotes.R;
+import com.squareup.picasso.Picasso;
 
+import java.io.File;
 import java.util.ArrayList;
 
 
@@ -264,14 +266,36 @@ public class NotesListAdapter extends BaseAdapter {
 			case IMAGEMODE:
 			{
 				holder.imageViewSlideMenuImage.setVisibility(View.VISIBLE);
-				holder.imageViewSlideMenuImage.setImageBitmap(model.getBitmap());
+				//holder.imageViewSlideMenuImage.setImageBitmap(model.getBitmap());
+				Picasso.with(activity).load(new File(model.getBitmapPath())).into(holder.imageViewSlideMenuImage);
 			}
 				break;
+			case CAMERAIMAGEMODE:
+			{
+				holder.imageViewSlideMenuImage.setVisibility(View.VISIBLE);
+				holder.imageViewSlideMenuImage.setImageBitmap(model.getBitmap());
+
+				try {
+
+					//Uri outPutfileUri =Uri.parse(model.getBitmapPath());
+					//Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.activity.getContentResolver(), outPutfileUri);
+					//Drawable d = new BitmapDrawable(this.activity.getResources(), bitmap);
+					//holder.imageViewSlideMenuImage.setImageDrawable(d);
+
+				} catch (Exception e){
+
+				}
+
+
+				//Picasso.with(activity).load(new File(model.getBitmapPath())).into(holder.imageViewSlideMenuImage);
+			}
+			break;
 
 			case SCRIBBLEMODE:
 			{
 				holder.imageViewSlideMenuImage.setVisibility(View.VISIBLE);
-				holder.imageViewSlideMenuImage.setImageBitmap(model.getBitmap());
+				//holder.imageViewSlideMenuImage.setImageBitmap(model.getBitmap());
+				Picasso.with(activity).load(new File(model.getBitmapPath())).into(holder.imageViewSlideMenuImage);
 			}
 			break;
 

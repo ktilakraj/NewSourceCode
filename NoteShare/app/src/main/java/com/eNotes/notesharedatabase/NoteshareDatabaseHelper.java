@@ -337,7 +337,7 @@ public class NoteshareDatabaseHelper extends SQLiteOpenHelper {
 
 		SimpleDateFormat dateFormatGmt = new SimpleDateFormat(
 				"dd/MM/yyyy HH:mm:ss");
-		dateFormatGmt.setTimeZone(TimeZone.getDefault());
+		dateFormatGmt.setTimeZone(TimeZone.getTimeZone("GMT"));
 		Date d = new Date();
 		String strDate = dateFormatGmt.format(d);
 
@@ -763,7 +763,7 @@ public class NoteshareDatabaseHelper extends SQLiteOpenHelper {
 	public  boolean deleteFolder(String note_id)
 	{
 		SQLiteDatabase db = this.getWritableDatabase();
-		return db.delete(NOTE_FOLDER_TABLE_NAME, FOLDER_ID + "=" + note_id, null)>0;
+		return db.delete(NOTE_FOLDER_TABLE_NAME, FOLDER_NOTE_ID + "=" + note_id, null)>0;
 	}
 
 

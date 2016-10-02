@@ -35,6 +35,9 @@ import com.eNotes.dataAccess.DataManager;
 import com.eNotes.datamodels.SideMenuitems;
 import com.eNotes.notesharedatabase.DBNoteItems;
 import com.eNotes.notesharedatabase.NoteshareDatabaseHelper;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.mobiapp.ventures.eNotes.R;
 
 import java.text.SimpleDateFormat;
@@ -82,28 +85,41 @@ public class NewFolderMainActivity extends DrawerActivity {
 	public Dialog dialogColor;
 	public ImageButton searchbuttonclick;
 	public EditText editTextsearchNote;
+	private AdView mAdView;
+	private Button btnFullscreenAd;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+
 		super.onCreate(savedInstanceState);
 		// setContentView(R.layout.activity_main);
 
-
 		androidOpenDbHelperObj = new NoteshareDatabaseHelper(context);
 		sqliteDatabase = androidOpenDbHelperObj.getWritableDatabase();
-
-
 		LayoutInflater inflater = (LayoutInflater) this
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		// inflate your activity layout here!
 		View contentView = inflater.inflate(R.layout.folder_activity_main,
 				null, false);
 		mDrawerLayout.addView(contentView, 0);
-
 		DataManager.sharedDataManager().setSelectedFolderItemIndex(-1);
-
 		initlizeUIElement(contentView);
-		getDeafultNote();
+		loadAds();
 
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		getDeafultNote();
+	}
+
+	void  loadAds()
+	{
+		MobileAds.initialize(getApplicationContext(), "ca-app-pub-4042620180347128~4456337699");
+		mAdView = (AdView) findViewById(R.id.adView);
+		AdRequest adRequest = new AdRequest.Builder()
+				.build();
+		mAdView.loadAd(adRequest);
 	}
 
 	void initlizeUIElement(View contentview) {

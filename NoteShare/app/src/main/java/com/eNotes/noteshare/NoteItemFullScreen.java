@@ -5,8 +5,13 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -17,10 +22,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.eNotes.dataAccess.DataManager;
+import com.eNotes.datamodels.NOTETYPE;
 import com.eNotes.datamodels.NoteListDataModel;
 import com.eNotes.notesharedatabase.DBNoteItems;
 import com.eNotes.notesharedatabase.NoteshareDatabaseHelper;
 import com.mobiapp.ventures.eNotes.R;
+import com.squareup.picasso.Picasso;
+
+import java.io.File;
 
 
 public class NoteItemFullScreen extends Activity {
@@ -39,7 +48,27 @@ public class NoteItemFullScreen extends Activity {
 		imageviewfullscreenmode = (ImageView) findViewById(R.id.imageviewfullscreenmode);
 		 notelistitem = DataManager.sharedDataManager()
 				.getNotelistData();
-		imageviewfullscreenmode.setImageBitmap(notelistitem.getBitmap());
+
+		if (notelistitem.noteType == NOTETYPE.IMAGEMODE)
+		{
+			imageviewfullscreenmode.setImageBitmap(notelistitem.getBitmap());
+			Picasso.with(this).load(new File(notelistitem.getBitmapPath())).into(imageviewfullscreenmode);
+
+		} else if (notelistitem.noteType == NOTETYPE.CAMERAIMAGEMODE) {
+
+			try {
+
+				Uri outPutfileUri =Uri.parse(notelistitem.getBitmapPath());
+				Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), outPutfileUri);
+				Drawable d = new BitmapDrawable(this.getResources(), bitmap);
+				imageviewfullscreenmode.setImageDrawable(d);
+
+			} catch (Exception e){
+
+			}
+		}
+
+
 		imageClose=(Button) findViewById(R.id.imageClose);
 		imageDelete=(Button) findViewById(R.id.imageDelete);
 		imageClose.setOnClickListener(new OnClickListener() {

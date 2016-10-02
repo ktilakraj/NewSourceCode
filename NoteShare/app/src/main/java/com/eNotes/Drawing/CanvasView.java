@@ -32,8 +32,13 @@ import java.util.List;
 /**
  * This class defines fields and methods for drawing.
  */
+
 public class CanvasView extends View {
 
+    public  interface  OnTouchCanvas {
+
+          void onDrawCanvasByUser(boolean drawn);
+    }
     // Enumeration for Mode
     public enum Mode {
         DRAW,
@@ -94,6 +99,16 @@ public class CanvasView extends View {
     private float startY   = 0F;
     private float controlX = 0F;
     private float controlY = 0F;
+
+    public OnTouchCanvas getOnTouchCanvas() {
+        return onTouchCanvas;
+    }
+
+    public void setOnTouchCanvas(OnTouchCanvas onTouchCanvas) {
+        this.onTouchCanvas = onTouchCanvas;
+    }
+
+    public  OnTouchCanvas onTouchCanvas;
 
     /**
      * Copy Constructor
@@ -442,6 +457,8 @@ public class CanvasView extends View {
      */
     @Override
     public boolean onTouchEvent(MotionEvent event) {
+
+        onTouchCanvas.onDrawCanvasByUser(true);
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 this.onActionDown(event);

@@ -7,7 +7,7 @@
 
     <!--<style name="AppBaseTheme" parent="android:Theme.Light">-->
 
-   <style name="AppBaseTheme" parent="android:Theme.Translucent">
+   <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
        <!--
            Theme customizations available in newer API levels can go in
@@ -18,9 +18,27 @@
     </style>
 
     <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <!--<style name="AppTheme.N" parent="AppBaseTheme">-->
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+    <!--</style>-->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
     </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
     <color name="background_color">#01bbd4</color>
     <color name="actionbarbg">#000</color>
     <color name="facebookbuttonbg">#3b5998</color>

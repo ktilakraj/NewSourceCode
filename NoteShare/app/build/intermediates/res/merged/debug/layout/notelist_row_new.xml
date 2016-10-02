@@ -33,7 +33,7 @@
             android:layout_height="40dp">
 
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="30dp"
                 android:layout_weight="1"
                 android:id="@+id/editNoteTitle"
                 android:padding="0dp"
@@ -41,11 +41,11 @@
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:src="@drawable/edit_new_icon"
-                android:layout_height="35dp" />
+                android:layout_height="30dp" />
 
 
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="28dp"
                 android:layout_weight="1"
                 android:id="@+id/noteTimeBomb"
                 android:padding="0dp"
@@ -53,10 +53,10 @@
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:src="@drawable/timebomb_new_icon"
-                android:layout_height="35dp" />
+                android:layout_height="28dp" />
 
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="@dimen/expandiconsize"
                 android:layout_weight="1"
                 android:id="@+id/noteremindertime"
                 android:padding="0dp"
@@ -64,38 +64,38 @@
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:src="@drawable/alert_new_icon"
-                android:layout_height="35dp" />
+                android:layout_height="@dimen/expandiconsize" />
 
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="@dimen/expandiconsize"
                 android:layout_weight="1"
                 android:id="@+id/noteLock"
                 android:padding="0dp"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:src="@drawable/lock_new_icon"
-                android:layout_height="35dp" />
+                android:layout_height="@dimen/expandiconsize" />
 
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="@dimen/expandiconsize"
                 android:layout_weight="1"
                 android:id="@+id/noteunlockLock"
                 android:padding="0dp"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:src="@drawable/unlock_new_icon"
-                android:layout_height="35dp" />
+                android:layout_height="@dimen/expandiconsize" />
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="@dimen/expandiconsize"
                 android:id="@+id/noteMoveToFolder"
                 android:padding="0dp"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:src="@drawable/move_new_icon"
-                android:layout_height="35dp" />
+                android:layout_height="@dimen/expandiconsize" />
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="@dimen/expandiconsize"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"
 
@@ -103,25 +103,25 @@
                 android:padding="0dp"
                 android:background="@android:color/transparent"
                 android:src="@drawable/color_new_icon"
-                android:layout_height="35dp" />
+                android:layout_height="@dimen/expandiconsize" />
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="@dimen/expandiconsize"
                 android:layout_weight="1"
                 android:id="@+id/noteDelete"
                 android:scaleType="fitCenter"
                 android:src="@drawable/delete_new_icon"
                 android:padding="0dp"
                 android:background="@android:color/transparent"
-                android:layout_height="35dp" />
+                android:layout_height="@dimen/expandiconsize" />
             <ImageButton
-                android:layout_width="35dp"
+                android:layout_width="@dimen/expandiconsize"
                 android:layout_weight="1"
                 android:id="@+id/noteShare"
                 android:scaleType="fitCenter"
                 android:background="@android:color/transparent"
                 android:src="@drawable/share_menu_icon"
                 android:padding="0dp"
-                android:layout_height="35dp" />
+                android:layout_height="@dimen/expandiconsize" />
 
 
 

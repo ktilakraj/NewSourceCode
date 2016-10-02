@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -16,13 +17,11 @@
         android:id="@+id/header_menu"
         android:layout_height="50dp"/>
 
-
-
     <ListView
         android:layout_width="match_parent"
         android:id="@+id/listviewNotes"
         android:layout_height="match_parent"
-
+        android:layout_marginBottom="60dp"
         android:divider="@android:color/transparent"
         android:layout_below="@+id/header_menu">
     </ListView>
@@ -49,23 +48,33 @@
             android:textColor="@color/intro_text_color"
             android:layout_marginTop="10dp"
             android:textStyle="normal"
-            android:text="Click + to create note"
+            android:text="Click below icon to create note"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
     <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:scaleType="fitCenter"
-         android:src="@drawable/create_circle"
+         android:src="@drawable/appicon"
         android:id="@+id/btnAddNote"
         android:background="@android:color/transparent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="70dp" />
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
 
+        ads:adUnitId="@string/banner_home_footer"
+        >
+    </com.google.android.gms.ads.AdView>
 
 </RelativeLayout>

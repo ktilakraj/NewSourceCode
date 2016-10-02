@@ -1,6 +1,11 @@
 package com.eNotes.dataAccess;
 
+import android.Manifest;
+import android.app.Activity;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.net.Uri;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
 import com.eNotes.datamodels.NOTETYPE;
@@ -25,6 +30,54 @@ public class DataManager
 	public NOTETYPE SELECTED_TEXT_OPTION;
 	public SideMenuitems seletedListNoteItem;
 	public DBNoteItems seletedDBNoteItem;
+
+	public String getShare_url() {
+		return share_url;
+	}
+
+	public void setShare_url(String share_url) {
+		this.share_url = share_url;
+	}
+
+	public String getVersion_no() {
+		return version_no;
+	}
+
+	public void setVersion_no(String version_no) {
+		this.version_no = version_no;
+	}
+
+	public String getNew_feature() {
+		return new_feature;
+	}
+
+	public void setNew_feature(String new_feature) {
+		this.new_feature = new_feature;
+	}
+
+	public  String    share_url;
+	public  String      version_no;
+	public  String      new_feature;
+
+	public Uri getCamraURI() {
+		return camraURI;
+	}
+
+	public void setCamraURI(Uri camraURI) {
+		this.camraURI = camraURI;
+	}
+
+	public Uri camraURI;
+
+	public String getCamraAppendPath() {
+		return camraAppendPath;
+	}
+
+	public void setCamraAppendPath(String camraAppendPath) {
+		this.camraAppendPath = camraAppendPath;
+	}
+
+	public String camraAppendPath;
 
 	public int getSelectedItemIndex() {
 		return selectedItemIndex;
@@ -184,4 +237,41 @@ public class DataManager
 		return outputDate;
 
 	}
+
+	public  void  setUpUserPermission(Activity context,int requestCode)
+	{
+		switch (requestCode) {
+
+			case 1:
+			{
+				if (ActivityCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+					final String[] permissions = new String[]{Manifest.permission.RECORD_AUDIO};
+					ActivityCompat.requestPermissions(context, permissions, 0);
+				}
+			}
+			break;
+			case 3:
+			{
+				if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+					final String[] permissions = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE};
+					ActivityCompat.requestPermissions(context, permissions, 0);
+				}
+			}
+			break;
+			case 2:
+			{
+				if (ActivityCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+					final String[] permissions = new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE};
+					ActivityCompat.requestPermissions(context, permissions, 0);
+				}
+			}
+			break;
+
+		}
+
+
+
+
+	}
+
 }
