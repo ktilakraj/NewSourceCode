@@ -356,8 +356,10 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 
 		// Add data to the intent, the receiving app will decide
 		// what to do with it.
+
+		String shareurl="https://play.google.com/store/apps/details?id=com.mobiapp.ventures.eNotes.noteshare";
 		share.putExtra(Intent.EXTRA_SUBJECT, "mobiNote");
-		share.putExtra(Intent.EXTRA_TEXT, "mobiNote - An easy way to manage your documents"+"\n"+""+DataManager.sharedDataManager().getShare_url());
+		share.putExtra(Intent.EXTRA_TEXT, "mobiNote - An easy way to manage your documents"+"\n"+""+shareurl);
 
 		startActivity(Intent.createChooser(share, "Share mobiNote"));
 	}

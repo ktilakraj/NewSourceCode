@@ -68,15 +68,11 @@ public class ConfigParsing {
             if(dataStr!=null)
             {
                 JSONObject jsonData = new JSONObject(dataStr);
-                // JSONObject jsonData =    loadJSONFromAsset("configtfile");
-                JSONObject configObject = jsonData.optJSONObject("config");
-                if(configObject == null) {
-                    return;
-                }
 
-                DataManager.sharedDataManager().setShare_url(configObject.optString("share_url"));//configObject.optString("multSportUrl");//remove it
-                DataManager.sharedDataManager().setVersion_no( configObject.optString("version_no"));
-                DataManager.sharedDataManager().setNew_feature( configObject.optString("new_feature"));
+
+                DataManager.sharedDataManager().setShare_url(jsonData.optString("share_url"));
+                DataManager.sharedDataManager().setVersion_no( jsonData.optString("version_no"));
+                DataManager.sharedDataManager().setNew_feature( jsonData.optString("new_feature"));
 
             }
         }

@@ -33,7 +33,7 @@ public class DialogUtill {
 
         // set dialog message
         alertDialogBuilder
-                .setMessage("Do you want to exist?")
+                .setMessage("Do you want to exit?")
                 .setCancelable(false)
                 .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,int id) {
