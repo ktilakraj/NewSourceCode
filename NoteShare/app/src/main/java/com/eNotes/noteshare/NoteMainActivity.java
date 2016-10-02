@@ -1155,6 +1155,12 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 						startActivity(new Intent(NoteMainActivity.this,NoteItemFullScreen.class));
 					}
 					break;
+					case CAMERAIMAGEMODE: {
+						//Toast.makeText(getApplicationContext(), "Image mode",Toast.LENGTH_SHORT).show();
+						DataManager.sharedDataManager().setNotelistData(notelistitem);
+						startActivity(new Intent(NoteMainActivity.this,NoteItemFullScreen.class));
+					}
+					break;
 					case SCRIBBLEMODE: {
 						//Toast.makeText(getApplicationContext(), "scribble mode",Toast.LENGTH_SHORT).show();
 						DataManager.sharedDataManager().setNotelistData(notelistitem);

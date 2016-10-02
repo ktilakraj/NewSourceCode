@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -93,7 +92,7 @@ public class NoteFolderAdapter extends BaseAdapter {
 			holder.btnclose2=(ImageButton) vi
 					.findViewById(R.id.btnclose2);
 
-			holder.btnmoreOption=(Button) vi
+			holder.btnmoreOption=(ImageButton) vi
 					.findViewById(R.id.btnmoreOption);
 			/************ Set holder with LayoutInflater ************/
 			vi.setTag(holder);
@@ -222,7 +221,7 @@ public class NoteFolderAdapter extends BaseAdapter {
 
 		public ImageButton btnclose1, btnclose2, btnlock, btntimebomb, btnmove,
 				btndelete;
-		public Button btnmoreOption;
+		public ImageButton btnmoreOption;
 
 	}
 	

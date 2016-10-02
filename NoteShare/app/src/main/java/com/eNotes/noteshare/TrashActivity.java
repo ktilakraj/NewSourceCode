@@ -16,6 +16,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.eNotes.Utlity.DialogUtill;
 import com.eNotes.adpters.TrashAdapter;
 import com.eNotes.notesharedatabase.DBNoteItems;
 import com.eNotes.notesharedatabase.NoteshareDatabaseHelper;
@@ -266,4 +267,13 @@ public class TrashActivity extends DrawerActivity {
         });
     }
 
+    @Override
+    public void onBackPressed() {
+
+
+        super.onBackPressed();
+
+        DialogUtill.backDialog(this);
+
+    }
 }

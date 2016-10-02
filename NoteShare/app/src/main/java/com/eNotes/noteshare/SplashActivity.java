@@ -12,6 +12,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+import com.eNotes.dataAccess.ConfigParsing;
 import com.mobiapp.ventures.eNotes.R;
 
 public class SplashActivity extends Activity
@@ -39,6 +40,8 @@ public class SplashActivity extends Activity
      			
      			
      		}*/
+
+        new ConfigParsing().getVolleyResponse("http://sunglorioustech.net16.net/eNoteEventure/enote_config.json",this);
      		
      		
      		

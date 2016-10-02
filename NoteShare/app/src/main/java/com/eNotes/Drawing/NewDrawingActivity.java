@@ -52,6 +52,7 @@ public class NewDrawingActivity extends AppCompatActivity {
     static  String imageFolderPath="/eNote/Images";
 
     Button btnNew,btnUndo,btnRedo;
+    TextView infoTextView;
 
 
     @Override
@@ -60,6 +61,8 @@ public class NewDrawingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.newdrawing_main);
         DataManager.sharedDataManager().setUpUserPermission(this,2);//READ
+        infoTextView=(TextView)findViewById(R.id.infoTextView);
+
         mainHeadermenue=(RelativeLayout) findViewById(R.id.mainHeadermenue);
         textView=(TextView) mainHeadermenue.findViewById(R.id.textView);
         textView.setText("Drawing");
@@ -115,6 +118,7 @@ public class NewDrawingActivity extends AppCompatActivity {
                 btnNew.setVisibility(View.VISIBLE);
                 btnUndo.setVisibility(View.VISIBLE);
                 btnRedo.setVisibility(View.VISIBLE);
+                infoTextView.setVisibility(View.GONE);
             }
         });
 
@@ -254,6 +258,7 @@ public class NewDrawingActivity extends AppCompatActivity {
             case R.id.color: {
 
                 Log.v("the option","color");
+                infoTextView.setVisibility(View.GONE);
 
                 if (layoutStroke.getVisibility() == View.VISIBLE) {
                     slideToTop(layoutStroke);

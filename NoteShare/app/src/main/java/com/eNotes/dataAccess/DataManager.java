@@ -31,6 +31,34 @@ public class DataManager
 	public SideMenuitems seletedListNoteItem;
 	public DBNoteItems seletedDBNoteItem;
 
+	public String getShare_url() {
+		return share_url;
+	}
+
+	public void setShare_url(String share_url) {
+		this.share_url = share_url;
+	}
+
+	public String getVersion_no() {
+		return version_no;
+	}
+
+	public void setVersion_no(String version_no) {
+		this.version_no = version_no;
+	}
+
+	public String getNew_feature() {
+		return new_feature;
+	}
+
+	public void setNew_feature(String new_feature) {
+		this.new_feature = new_feature;
+	}
+
+	public  String    share_url;
+	public  String      version_no;
+	public  String      new_feature;
+
 	public Uri getCamraURI() {
 		return camraURI;
 	}

@@ -83,6 +83,8 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 			window.setStatusBarColor(this.getResources().getColor(R.color.header_bg));
 		}*/
 
+
+
 		String strresponse = loadJSONFromAsset();
 		try {
 			JSONObject jsonObject = new JSONObject(strresponse);
@@ -354,10 +356,10 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 
 		// Add data to the intent, the receiving app will decide
 		// what to do with it.
-		share.putExtra(Intent.EXTRA_SUBJECT, "eNote");
-		share.putExtra(Intent.EXTRA_TEXT, "");
+		share.putExtra(Intent.EXTRA_SUBJECT, "mobiNote");
+		share.putExtra(Intent.EXTRA_TEXT, "mobiNote - An easy way to manage your documents"+"\n"+""+DataManager.sharedDataManager().getShare_url());
 
-		startActivity(Intent.createChooser(share, "Share eNote"));
+		startActivity(Intent.createChooser(share, "Share mobiNote"));
 	}
 
 	public String loadJSONFromAsset() {

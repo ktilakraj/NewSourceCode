@@ -30,7 +30,8 @@ public class ColorPickerPreference extends DialogPreference {
         layoutParams.addRule(RelativeLayout.CENTER_IN_PARENT);
 
         colorPickerView = new ColorPicker(getContext());
-        colorPickerView.setId(1);
+        int ids = 1;
+        //colorPickerView.setId(ids);
 
         relativeLayout.addView(colorPickerView, layoutParams);
 

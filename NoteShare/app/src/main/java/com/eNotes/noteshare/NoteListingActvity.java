@@ -31,6 +31,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.eNotes.Utlity.DialogUtill;
 import com.eNotes.adpters.FolderListingAdapter;
 import com.eNotes.adpters.NoteList_Adapter_New;
 import com.eNotes.colorPicker.ColorPickerDialog;
@@ -1074,6 +1075,8 @@ public class NoteListingActvity extends DrawerActivity {
         dialog.show();
 
     }
+
+
 
 
     void showAlertWithBackPress(String message, Context context) {
@@ -2436,7 +2439,8 @@ public class NoteListingActvity extends DrawerActivity {
 
         if(isfolderId == false) {
 
-            showAlertWithBackPress("",this);
+            //showAlertWithBackPress("",this);
+          DialogUtill.backDialog(this);
         }
         else  {
             finish();
