@@ -88,12 +88,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/new_paint.png"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/invite_icon.png",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/invite_icon.png"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/sub_menu.png",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/sub_menu.png"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/invite_icon.png",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/invite_icon.png"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
@@ -496,12 +496,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/drawable/text_note_numbering.png"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/drawable/lock_new_icon.png",
