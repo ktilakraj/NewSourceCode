@@ -270,6 +270,26 @@ public class NotesListAdapter extends BaseAdapter {
 				Picasso.with(activity).load(new File(model.getBitmapPath())).into(holder.imageViewSlideMenuImage);
 			}
 				break;
+			case CAMERAIMAGEMODE:
+			{
+				holder.imageViewSlideMenuImage.setVisibility(View.VISIBLE);
+				holder.imageViewSlideMenuImage.setImageBitmap(model.getBitmap());
+
+				try {
+
+					//Uri outPutfileUri =Uri.parse(model.getBitmapPath());
+					//Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.activity.getContentResolver(), outPutfileUri);
+					//Drawable d = new BitmapDrawable(this.activity.getResources(), bitmap);
+					//holder.imageViewSlideMenuImage.setImageDrawable(d);
+
+				} catch (Exception e){
+
+				}
+
+
+				//Picasso.with(activity).load(new File(model.getBitmapPath())).into(holder.imageViewSlideMenuImage);
+			}
+			break;
 
 			case SCRIBBLEMODE:
 			{

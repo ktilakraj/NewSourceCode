@@ -46,6 +46,7 @@ import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.eNotes.Drawing.NewDrawingActivity;
+import com.eNotes.Utlity.CameraUtill;
 import com.eNotes.adpters.NotesListAdapter;
 import com.eNotes.dataAccess.DataManager;
 import com.eNotes.datamodels.NOTETYPE;
@@ -135,6 +136,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 	static  String notetypeText="TEXT";
 	static  String notetypeAudio="AUDIO";
 	static  String notetypeImage="IMAGE";
+	static  String notetypeImageCAMRA="CAMERAIMAGE";
 	static  String notetypeScribble="DRAWING";
 
 	public DBNoteItemElement dbNoteItemElement;
@@ -294,10 +296,35 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
                         //blank image will be delete here
                         androidOpenDbHelperObj.deleteNoteElement(elemet.getNOTE_ELEMENT_ID());
                     }
-
-
-
                 }
+				else if (elemet.getNOTE_ELEMENT_TYPE().equalsIgnoreCase(notetypeImageCAMRA))
+				{
+					String filename=elemet.getNOTE_ELEMENT_CONTENT();
+
+					// Bitmap imageBitMap=getImageFromfilePath(filename);
+					String imageBitMap=filename;//getDrawImageFromfilePath(filename);
+
+
+					if (imageBitMap!=null)
+					{
+
+						Bitmap imageBitMap1 = CameraUtill.sharedDataUtill().compressImage(imageBitMap,this);
+
+						NoteListDataModel noteListdatamodel = new NoteListDataModel();
+						noteListdatamodel.noteType = NOTETYPE.CAMERAIMAGEMODE;
+						model.setNoteElementDateTime(elemet.getNOTE_ELEMENT_DATE_TIME());
+						model.setNoteElmentId(elemet.getNOTE_ELEMENT_ID());
+						noteListdatamodel.setBitmap(imageBitMap1);
+						noteListdatamodel.setBitmapPath(imageBitMap);
+						arrNoteListData.add(noteListdatamodel);
+						arrDBNoteListData.add(elemet);
+					}
+					else
+					{
+						//blank image will be delete here
+						androidOpenDbHelperObj.deleteNoteElement(elemet.getNOTE_ELEMENT_ID());
+					}
+				}
 				else if (elemet.getNOTE_ELEMENT_TYPE().equalsIgnoreCase(notetypeScribble))
 				{
 					String filename=elemet.getNOTE_ELEMENT_CONTENT();
@@ -388,28 +415,14 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 		//get path to external storage (SD card)
 
 		Log.d("Camra Path:",""+DataManager.sharedDataManager().getCamraAppendPath());
+		String uri = DataManager.sharedDataManager().camraURI.toString();
+		Log.e("uri-:", uri);
+		///Toast.makeText(this, DataManager.sharedDataManager().camraURI.toString(),Toast.LENGTH_SHORT).show();
 
-
-		// String iconsStoragePath = Environment.getExternalStorageDirectory() + "/eNotes/Images";
-//		String iconsStoragePath = Environment.getExternalStorageDirectory() + imageFolderPath;
-//
-//		File sdIconStorageDir = new File(iconsStoragePath);
-//
-//		//create storage directories, if they don't exist
-//		sdIconStorageDir.mkdirs();
 
 		try {
-//			String filePath = sdIconStorageDir.toString() + "/"+appendPath;
-//			FileOutputStream fileOutputStream = new FileOutputStream(filePath);
-//
-//			BufferedOutputStream bos = new BufferedOutputStream(fileOutputStream);
-//			//choose another format if PNG doesn't suit you
-//			imageData.compress(Bitmap.CompressFormat.JPEG, 100, bos);
-//
-//			bos.flush();
-//			bos.close();
 
-			androidOpenDbHelperObj.noteElementdatabaseInsertion(selectedDBNoteItem.getNote_Id(), DataManager.sharedDataManager().getCamraAppendPath(), imageType, "", "");
+			androidOpenDbHelperObj.noteElementdatabaseInsertion(selectedDBNoteItem.getNote_Id(), uri, imageType, "", "");
 
 		}  catch (Exception e) {
 			Log.w("TAG", "Error saving image file: " + e.getMessage());
@@ -1592,27 +1605,7 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 
 
-					String filename;
-
-					Date date = new Date();
-					SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
-					filename =  sdf.format(date);
-					appendPath= filename+".jpg";
-
-					DataManager.sharedDataManager().setCamraAppendPath(appendPath);
-
-					// String iconsStoragePath = Environment.getExternalStorageDirectory() + "/eNotes/Images";
-					String iconsStoragePath = Environment.getExternalStorageDirectory() + imageFolderPath+File.separator+appendPath;
-
-					File sdIconStorageDir = new File(iconsStoragePath);
-					//create storage directories, if they don't exist
-					sdIconStorageDir.mkdirs();
-
-					Uri tempUri=Uri.fromFile(sdIconStorageDir);
-
-					Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-					intent.putExtra(MediaStore.EXTRA_OUTPUT,tempUri);
-					startActivityForResult(intent, REQUEST_CAMERA);
+					openCamera();
 
 
 				} else if (items[item].equals("Choose from Gallary")) {
@@ -1634,6 +1627,28 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 		
 	}
 
+	void  openCamera()
+	{
+		String filename;
+
+		Date date = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
+		filename =  sdf.format(date);
+		appendPath= filename+".jpg";
+
+		DataManager.sharedDataManager().setCamraAppendPath(appendPath);
+
+		String iconsStoragePath1 = Environment.getExternalStorageDirectory() + imageFolderPath;
+		String iconsStoragePath = iconsStoragePath1+File.separator+appendPath;
+		File sdIconStorageDir = new File(iconsStoragePath);
+		Uri tempUri=Uri.fromFile(sdIconStorageDir);
+		DataManager.sharedDataManager().setCamraURI(tempUri);
+
+		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+		intent.putExtra(MediaStore.EXTRA_OUTPUT,tempUri);
+		startActivityForResult(intent, REQUEST_CAMERA);
+	}
+
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
@@ -1644,14 +1659,15 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 
 			if (requestCode == REQUEST_CAMERA)
 			{
-				Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
-				//ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-				//thumbnail.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
+				//Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
+
 
 				try {
 
-					//createImageFile(thumbnail,notetypeImage);
-					storeImage(thumbnail,notetypeImage);
+
+					//storeImage(thumbnail,notetypeImage);
+
+					storeCamraImage(null,notetypeImageCAMRA);
 
 				} catch (Exception e)
 				{
@@ -1760,8 +1776,8 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				// System.exit(0);
-				Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-				startActivityForResult(intent, REQUEST_CAMERA);
+				//Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+				//startActivityForResult(intent, REQUEST_CAMERA);
 
 				createImageFolder();
 
@@ -1786,6 +1802,8 @@ public class NoteMainActivity extends DrawerActivity implements OnClickListener 
 				Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 				intent.putExtra(MediaStore.EXTRA_OUTPUT,tempUri);
 				startActivityForResult(intent, REQUEST_CAMERA);*/
+
+				openCamera();
 
 				dialog.dismiss();
 

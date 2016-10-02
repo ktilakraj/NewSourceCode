@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 
@@ -29,6 +30,16 @@ public class DataManager
 	public NOTETYPE SELECTED_TEXT_OPTION;
 	public SideMenuitems seletedListNoteItem;
 	public DBNoteItems seletedDBNoteItem;
+
+	public Uri getCamraURI() {
+		return camraURI;
+	}
+
+	public void setCamraURI(Uri camraURI) {
+		this.camraURI = camraURI;
+	}
+
+	public Uri camraURI;
 
 	public String getCamraAppendPath() {
 		return camraAppendPath;
