@@ -9,10 +9,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:background="@android:color/transparent"
+        android:background="@drawable/border"
         android:layout_margin="5dp"
         android:id="@+id/mainlayout"
         android:orientation="vertical"
+        android:padding="3dp"
         android:layout_toRightOf="@+id/colorMarker1"
         android:layout_height="wrap_content">
 
@@ -160,6 +161,7 @@
         android:background="#000000"
         android:id="@+id/layoutsepreter"
         android:layout_marginLeft="12dp"
+        android:visibility="gone"
         android:layout_marginRight="12dp"
         android:layout_marginBottom="3dp"
         android:layout_below="@+id/mainlayout"

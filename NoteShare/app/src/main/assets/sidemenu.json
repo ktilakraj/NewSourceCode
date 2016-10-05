@@ -5,6 +5,10 @@
                           "menuid": "1"
                       },
                       {
+                         "menuName": "Quick Notes",
+                          "menuid": "15"
+                      },
+                      {
                           "menuName": "Folders",
                           "menuid": "3"
                       },

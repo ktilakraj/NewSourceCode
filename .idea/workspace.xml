@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f48bbf-8403-4c19-91fe-be3ca3928162" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MediaPlayerDemo/app/src/main/java/richnote/com/mediaplayerdemo/MusicListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MediaPlayerDemo/app/src/main/res/layout/musicrow.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/libraries/constraint_layout_1_0_0_alpha4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/libraries/constraint_layout_solver_1_0_0_alpha4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/libraries/gson_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/libraries/isoparser_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/libraries/picasso_2_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/libraries/support_annotations_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/libraries/support_v4_23_1_1.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -22,86 +10,71 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/NoteShare/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_rating_star_on_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_off_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/common_full_open_on_phone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-hdpi/common_ic_googleplayservices.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_rating_star_off_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_scrubber_control_to_pressed_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/common_full_open_on_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_scrubber_control_off_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-tvdpi/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-tvdpi/common_full_open_on_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_rating_star_on_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_rating_star_off_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_share_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.idea/misc.xml" afterPath="$PROJECT_DIR$/NoteShare/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/.idea/workspace.xml" afterPath="$PROJECT_DIR$/NoteShare/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/NoteShare.iml" afterPath="$PROJECT_DIR$/NoteShare/NoteShare.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/app.iml" afterPath="$PROJECT_DIR$/NoteShare/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build.gradle" afterPath="$PROJECT_DIR$/NoteShare/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/android/support/constraint/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/generated/source/buildConfig/debug/com/mobiapp/ventures/eNotes/BuildConfig.java" afterPath="$PROJECT_DIR$/NoteShare/app/build/generated/source/buildConfig/debug/com/mobiapp/ventures/eNotes/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/com/google/android/gms/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/com/google/android/gms/appindexing/R.java" afterPath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/com/google/android/gms/appindexing/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/com/google/android/gms/base/R.java" afterPath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/com/google/android/gms/base/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/com/mobiapp/ventures/eNotes/R.java" afterPath="$PROJECT_DIR$/NoteShare/app/build/generated/source/r/debug/com/mobiapp/ventures/eNotes/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_note_listing_actvity.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_note_listing_actvity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_trash.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_trash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_activity_main.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/folder_activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/newdrawing_main.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/newdrawing_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/note_activity_main.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/note_activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/notelist_row_new.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/layout/notelist_row_new.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/NoteShare/app/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/NoteShare/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/assets/sidemenu.json" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/assets/sidemenu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/adpters/NoteList_Adapter_New.java" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/adpters/NoteList_Adapter_New.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/DrawerActivity.java" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/DrawerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/NewFolderMainActivity.java" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/NewFolderMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/NoteListingActvity.java" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/NoteListingActvity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/NoteMainActivity.java" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/NoteMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/TrashActivity.java" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/noteshare/TrashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/notesharedatabase/NoteshareDatabaseHelper.java" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/java/com/eNotes/notesharedatabase/NoteshareDatabaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/activity_note_listing_actvity.xml" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/activity_note_listing_actvity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/activity_trash.xml" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/activity_trash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/alert_view_back.xml" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/alert_view_back.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/folder_activity_main.xml" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/folder_activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/notelist_row_new.xml" afterPath="$PROJECT_DIR$/NoteShare/app/src/main/res/layout/notelist_row_new.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/build.gradle" afterPath="$PROJECT_DIR$/NoteShare/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NoteShare/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/NoteShare/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="NewSourceCode.iws" />
@@ -131,9 +104,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="26" />
-    <option name="width" value="1280" />
-    <option name="height" value="700" />
+    <option name="x" value="54" />
+    <option name="y" value="23" />
+    <option name="width" value="1226" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -160,9 +134,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -189,11 +165,75 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NewSourceCode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NoteShare">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NewSourceCode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NoteShare">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NewSourceCode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NoteShare">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java/com/eNotes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +340,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1280" height="700" extended-state="0" />
+    <frame x="54" y="23" width="1226" height="737" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -315,7 +355,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26058093" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

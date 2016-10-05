@@ -16,6 +16,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/note_activity_main.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/memorow.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/memorow.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/foldernotelist_activity.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/foldernotelist_activity.xml"
     },
@@ -24,12 +28,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/color_layout.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/interoduction_activity.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/interoduction_activity.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/trashrow.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/trashrow.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/interoduction_activity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/interoduction_activity.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/paintcolor.xml",
@@ -248,6 +252,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/text_note_row.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/memodisplayactivity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/memodisplayactivity.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
@@ -278,6 +286,10 @@
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/menu_header_4.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/menu_header_4.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/memolistingactivity.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/memolistingactivity.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/seprator_layout.xml",
@@ -424,12 +436,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_text_editor.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/activity_text_editor.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/brush_chooser.xml",

@@ -14,6 +14,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.eNotes.Memo.MemoListingActivity;
 import com.eNotes.adpters.MenuOpenInterface;
 import com.eNotes.adpters.SlideMenuAdapter;
 import com.eNotes.dataAccess.DataManager;
@@ -148,6 +149,9 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 					break;
 				case 14:
 					items.setResourceId(R.drawable.delete_new_gray_icon);
+					break;
+				case 15:
+					items.setResourceId(R.drawable.quick_icon);
 					break;
 				default:
 					break;
@@ -332,7 +336,13 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 					finish();
 				}
 				break;
+				case 15: {
 
+					System.out.println("Quick Note");
+					startActivity(new Intent(this, MemoListingActivity.class));
+					finish();
+				}
+				break;
 
 
 				default: {

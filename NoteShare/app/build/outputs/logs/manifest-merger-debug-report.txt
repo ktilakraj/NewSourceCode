@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:2:1-185:12
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:2:1-193:12
 	package
 		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:3:5-42
 		INJECTED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml
@@ -83,7 +83,7 @@ ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/A
 	android:name
 		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:23:22-72
 application
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:25:5-183:19
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:25:5-191:19
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.1] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
@@ -110,7 +110,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha4] /Use
 	android:theme
 		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:30:9-49
 activity#com.eNotes.noteshare.SplashActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:31:9-40:20
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:31:9-41:20
 	android:screenOrientation
 		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:34:13-49
 	android:label
@@ -120,283 +120,283 @@ ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/A
 	android:name
 		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:32:13-63
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:36:13-39:29
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
 ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:37:17-69
 	android:name
 		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:39:27-74
 activity#com.eNotes.noteshare.MainActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:41:9-44:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:42:9-45:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:43:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:44:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:44:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:42:13-61
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:43:13-61
 activity#com.eNotes.noteshare.DrawerActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:45:9-48:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:46:9-49:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:47:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:48:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:48:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:46:13-63
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:47:13-63
 activity#com.eNotes.noteshare.LoginActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:49:9-52:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:50:9-53:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:52:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:52:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:50:13-62
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:51:13-62
 activity#com.eNotes.noteshare.RegistrationActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:53:9-56:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:54:9-57:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:55:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:56:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:56:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:57:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:54:13-69
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:55:13-69
 activity#com.eNotes.noteshare.UserProfileActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:57:9-60:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:58:9-61:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:59:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:60:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:60:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:58:13-68
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:59:13-68
 activity#com.eNotes.noteshare.NoteMainActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:61:9-65:55
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:62:9-66:55
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:63:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:64:13-49
 	android:windowSoftInputMode
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:65:13-52
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:66:13-52
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:64:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:62:13-65
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:63:13-65
 activity#com.eNotes.noteshare.CheckListActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:66:9-69:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:67:9-70:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:68:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:69:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:69:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:70:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:67:13-66
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:68:13-66
 activity#com.eNotes.noteshare.SettingActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:70:9-73:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:71:9-74:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:72:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:73:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:73:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:74:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:71:13-64
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:72:13-64
 activity#com.eNotes.noteshare.InviteFriendsActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:74:9-77:69
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:75:9-78:69
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:76:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:77:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:77:13-66
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:78:13-66
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:75:13-70
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:76:13-70
 activity#com.eNotes.noteshare.SendFeedbackActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:78:9-81:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:79:9-82:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:80:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:81:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:81:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:82:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:79:13-69
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:80:13-69
 activity#com.eNotes.noteshare.LikeUsOnFacebookActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:82:9-85:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:83:9-86:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:84:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:85:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:85:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:86:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:83:13-73
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:84:13-73
 activity#com.eNotes.noteshare.RateUsActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:86:9-89:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:87:9-90:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:88:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:89:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:89:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:90:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:87:13-63
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:88:13-63
 activity#com.eNotes.noteshare.NotificationCenterActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:90:9-93:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:91:9-94:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:92:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:93:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:93:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:94:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:91:13-75
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:92:13-75
 activity#com.eNotes.noteshare.TermsAndConditionsActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:94:9-97:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:95:9-98:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:96:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:97:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:97:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:98:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:95:13-75
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:96:13-75
 activity#com.eNotes.noteshare.AboutNoteShareActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:98:9-101:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:99:9-102:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:100:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:101:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:101:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:102:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:99:13-71
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:100:13-71
 activity#com.eNotes.noteshare.FolderActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:102:9-105:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:103:9-106:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:104:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:105:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:105:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:106:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:103:13-63
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:104:13-63
 activity#com.eNotes.noteshare.ProfileSettingActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:106:9-109:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:107:9-110:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:108:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:109:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:109:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:110:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:107:13-71
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:108:13-71
 activity#com.eNotes.noteshare.ImageChooserActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:110:9-113:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:111:9-114:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:112:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:113:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:113:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:114:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:111:13-69
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:112:13-69
 activity#com.eNotes.noteshare.AudioChooserActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:114:9-116:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:115:9-117:59
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:116:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:117:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:115:13-69
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:116:13-69
 activity#com.eNotes.noteshare.DrawingActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:117:9-120:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:118:9-121:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:119:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:120:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:120:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:121:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:118:13-64
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:119:13-64
 activity#com.eNotes.noteshare.TextChooserActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:121:9-124:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:122:9-125:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:123:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:124:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:124:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:125:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:122:13-68
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:123:13-68
 activity#com.eNotes.noteshare.NewFolderMainActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:125:9-128:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:126:9-129:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:127:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:128:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:128:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:129:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:126:13-70
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:127:13-70
 activity#com.eNotes.noteshare.InteroductionActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:129:9-132:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:130:9-133:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:131:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:132:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:132:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:133:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:130:13-70
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:131:13-70
 activity#com.eNotes.noteshare.NoteItemFullScreen
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:133:9-136:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:134:9-137:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:135:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:136:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:136:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:137:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:134:13-67
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:135:13-67
 activity#com.eNotes.noteshare.NoteTextIItemFullScreen
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:137:9-140:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:138:9-141:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:139:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:140:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:140:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:141:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:138:13-72
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:139:13-72
 activity#com.eNotes.noteshare.NoteShareLockActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:141:9-144:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:142:9-145:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:143:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:144:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:144:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:145:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:142:13-70
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:143:13-70
 activity#com.eNotes.noteshare.FolderNoteListMainActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:145:9-148:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:146:9-149:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:147:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:148:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:148:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:149:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:146:13-75
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:147:13-75
 activity#com.eNotes.noteshare.NoteListingActvity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:149:9-151:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:150:9-152:59
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:151:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:152:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:150:13-67
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:151:13-67
 activity#com.eNotes.noteshare.NoteDetailActivity_1
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:152:9-155:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:153:9-156:59
 	android:label
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:154:13-74
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:155:13-74
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:155:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:156:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:153:13-69
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:154:13-69
 meta-data#com.google.android.gms.version
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:160:9-162:69
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:161:9-163:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:162:13-66
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:163:13-66
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:161:13-58
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:162:13-58
 activity#com.eNotes.noteshare.TextEditorActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:164:9-167:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:165:9-168:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:166:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:167:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:167:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:168:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:165:13-67
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:166:13-67
 activity#com.eNotes.noteshare.TrashActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:168:9-171:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:169:9-172:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:170:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:171:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:171:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:172:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:169:13-62
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:170:13-62
 activity#com.eNotes.Drawing.NewDrawingActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:172:9-175:59
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:173:9-176:59
 	android:screenOrientation
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:174:13-49
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:175:13-49
 	android:theme
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:175:13-56
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:176:13-56
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:173:13-65
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:174:13-65
 activity#com.eNotes.Utlity.DatePickerActivity
-ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:176:9-82
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:177:9-73
 	android:name
-		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:176:19-70
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:177:19-70
 activity#com.google.android.gms.ads.AdActivity
 ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:178:9-181:64
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:26:9-29:64
@@ -406,6 +406,22 @@ MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/tilakrajverm
 		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:181:13-61
 	android:name
 		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:179:13-65
+activity#com.eNotes.Memo.MemoDisplayActivity
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:183:9-186:59
+	android:screenOrientation
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:185:13-49
+	android:theme
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:186:13-56
+	android:name
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:184:13-63
+activity#com.eNotes.Memo.MemoListingActivity
+ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:187:9-190:59
+	android:screenOrientation
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:189:13-49
+	android:theme
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:190:13-56
+	android:name
+		ADDED from /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/AndroidManifest.xml:188:13-63
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:30:9-31:52
 	android:theme

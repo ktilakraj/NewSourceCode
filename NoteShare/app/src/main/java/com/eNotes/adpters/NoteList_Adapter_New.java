@@ -3,6 +3,10 @@ package com.eNotes.adpters;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.ShapeDrawable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -74,6 +78,8 @@ public class NoteList_Adapter_New extends BaseAdapter implements View.OnClickLis
 		View vi = convertView;
 		final ViewHolder holder;
 
+
+
 		if (convertView == null)
 		{
 
@@ -85,6 +91,7 @@ public class NoteList_Adapter_New extends BaseAdapter implements View.OnClickLis
 			holder = new ViewHolder();
 
 			holder.colorMarker=(LinearLayout)vi.findViewById(R.id.colorMarker1);
+			holder.mainlayout=(LinearLayout)vi.findViewById(R.id.mainlayout);
 			holder.textViewSlideMenuName = (TextView) vi
 					.findViewById(R.id.noteTitle);
 
@@ -312,15 +319,40 @@ public class NoteList_Adapter_New extends BaseAdapter implements View.OnClickLis
 					//System.out.println("there is 'b' in temp string");
 					holder.layoutsepreter.setBackgroundColor(Color.parseColor(model.getNote_Color()));
 					holder.Layouttags.setBackgroundColor(Color.parseColor(model.getNote_Color()));
+
+					int color =Color.parseColor(model.getNote_Color());
+					Drawable background = holder.mainlayout.getBackground();
+					if (background instanceof ShapeDrawable) {
+						((ShapeDrawable)background).getPaint().setColor(color);
+					} else if (background instanceof GradientDrawable) {
+						((GradientDrawable)background).setColor(color);
+					} else if (background instanceof ColorDrawable) {
+						((ColorDrawable)background).setColor(color);
+					}
 				}
 				else {
 					//System.out.println("there is no 'b' in temp string");
 
 					holder.layoutsepreter.setBackgroundColor(Color.parseColor("#"+model.getNote_Color()));
 					holder.Layouttags.setBackgroundColor(Color.parseColor("#"+model.getNote_Color()));
+
+					int color =Color.parseColor("#"+model.getNote_Color());
+					Drawable background = holder.mainlayout.getBackground();
+					if (background instanceof ShapeDrawable) {
+						((ShapeDrawable)background).getPaint().setColor(color);
+					} else if (background instanceof GradientDrawable) {
+						((GradientDrawable)background).setColor(color);
+					} else if (background instanceof ColorDrawable) {
+						((ColorDrawable)background).setColor(color);
+					}
 				}
 
 			}
+
+
+
+
+
 
 		else
 		{
@@ -345,7 +377,7 @@ public class NoteList_Adapter_New extends BaseAdapter implements View.OnClickLis
 		public ImageButton btnmoreOption1;
 		public ImageButton noteunlockLock,editNoteTitle,noteTimeBomb,noteLock,noteMoveToFolder,noteAddColor,noteDelete,noteShare,noteremindertime;
 		public int itemTag;
-		public LinearLayout showhideView,colorMarker,layoutMoreinfo,Layouttags;
+		public LinearLayout showhideView,colorMarker,layoutMoreinfo,Layouttags,mainlayout;
 		public ImageView imageLock,imageReminder,imageTimeBomb,elementType;
 
 	}
