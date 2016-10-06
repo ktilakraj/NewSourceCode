@@ -25,6 +25,8 @@ public class MemoDisplayActivity extends AppCompatActivity {
     ImageButton imageButtonHamburg;
     TextView textViewheaderTitle;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +34,7 @@ public class MemoDisplayActivity extends AppCompatActivity {
         //setTitle("Add Quick Note");
         editText=(EditText) findViewById(R.id.entermemo) ;
         editTextTitle=(EditText) findViewById(R.id.entermemoTitle) ;
+
 
         imageButtonHamburg = (ImageButton) findViewById(R.id.mainHeadermenue).findViewById(R.id.imageButtonHamburg);
         textViewheaderTitle = (TextView) findViewById(R.id.mainHeadermenue).findViewById(R.id.textViewheaderTitle);
@@ -58,7 +61,6 @@ public class MemoDisplayActivity extends AppCompatActivity {
         }
 
         if (editText.getText().length()>0 || editTextTitle.getText().length()>0) {
-
 
             if ( FileUtility.memoselectedindex ==-1) {
 
@@ -105,6 +107,9 @@ public class MemoDisplayActivity extends AppCompatActivity {
             editText.setText(""+maps.get(FileUtility.ELEMENTKEY));
             editTextTitle.setText(""+maps.get(FileUtility.ELEMENTTITLEKEY)==null?"":maps.get(FileUtility.ELEMENTTITLEKEY));
         }
+
+
+
 
     }
 

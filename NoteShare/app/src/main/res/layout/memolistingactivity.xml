@@ -45,4 +45,32 @@
             />
 
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0.7"
+        android:id="@+id/noQuickNote"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/no_memo"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="No Quick Note. Click to create"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+
 </RelativeLayout>

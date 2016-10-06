@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:visibility="gone"
+        android:visibility="visible"
         android:layout_centerVertical="true"
         android:orientation="horizontal" >
         <ImageButton
@@ -51,15 +51,19 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:padding="5dp"
+            android:visibility="gone"
             android:scaleType="fitCenter"
+            android:layout_marginRight="5dp"
             android:src="@drawable/sequnce_header_logo" />
 
         <ImageButton
             android:id="@+id/imageButtoncalander"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@android:color/transparent"
             android:padding="5dp"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
             android:scaleType="fitCenter"
             android:src="@drawable/calander_header_icon" />
     </LinearLayout>
