@@ -232,7 +232,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="c2536ca6c5dbd701ab2b9821db2ac860bb1c6818">
+        sha1="89fa378d0f30fa302d660ab0f1ff2f6b4008f1fc">
         <dex dex="/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_42f19d21095f4bf75a40f0813b6e39763c1b278c/classes.dex" />
     </item>
     <item
@@ -430,7 +430,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="eb27908fe5186c8ae1910f0010e4b92e81ac49d4">
+        sha1="715647ce50eb01deb8aea9b9b841e0730fcaccd1">
         <dex dex="/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_798cc7852acf4234a6b3f6bd429200e1c45351ab/classes.dex" />
     </item>
     <item
