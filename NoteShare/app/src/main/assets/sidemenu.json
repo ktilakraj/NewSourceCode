@@ -5,6 +5,10 @@
                           "menuid": "1"
                       },
                       {
+                          "menuName": "Check List",
+                          "menuid": "2"
+                      },
+                      {
                          "menuName": "Quick Notes",
                           "menuid": "15"
                       },

@@ -29,6 +29,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.eNotes.Utlity.DialogUtill;
 import com.eNotes.adpters.NewNoteFolderAdapter;
 import com.eNotes.adpters.NewNoteFolderGridAdapter;
 import com.eNotes.dataAccess.DataManager;
@@ -614,10 +615,7 @@ public class NewFolderMainActivity extends DrawerActivity {
 	@Override
 	public void onBackPressed() {
 
-		//showAlertWith("Are you sure,Do you want to quit the app?",
-				//NewFolderMainActivity.this);
-
-		finish();
+		DialogUtill.backDialog(this);
 
 	}
 
@@ -1273,5 +1271,8 @@ public class NewFolderMainActivity extends DrawerActivity {
 	{
 		
 	}
+
+
+
 	
 }

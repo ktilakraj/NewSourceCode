@@ -12,6 +12,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.eNotes.Memo.FileUtility;
+import com.eNotes.Utlity.DialogUtill;
 import com.mobiapp.ventures.eNotes.R;
 
 import java.util.ArrayList;
@@ -99,6 +100,13 @@ public class CheckListMainActivity extends AppCompatActivity {
 //        }
 //        startActivity(new Intent(this,CheckListDetailActivity.class));
 
+
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        DialogUtill.backDialog(this);
 
     }
 }

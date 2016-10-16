@@ -14,6 +14,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.eNotes.Checklist.CheckListMainActivity;
 import com.eNotes.Memo.MemoListingActivity;
 import com.eNotes.adpters.MenuOpenInterface;
 import com.eNotes.adpters.SlideMenuAdapter;
@@ -153,6 +154,9 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 				case 15:
 					items.setResourceId(R.drawable.quick_icon);
 					break;
+				case 16:
+					items.setResourceId(R.drawable.quick_icon);
+					break;
 				default:
 					break;
 			}
@@ -236,7 +240,7 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 
 					// openinitilaActivity(0);
 					System.out.println("check list");
-					startActivity(new Intent(this, CheckListActivity.class));
+					startActivity(new Intent(this, CheckListMainActivity.class));
 					finish();
 				}
 
@@ -253,7 +257,7 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 					System.out.println("folder");
 
 					startActivity(new Intent(this, NewFolderMainActivity.class));
-					//finish();
+					finish();
 				}
 				break;
 
@@ -343,6 +347,15 @@ public class DrawerActivity extends Activity implements MenuOpenInterface {
 					finish();
 				}
 				break;
+
+				case 16: {
+
+					System.out.println("Check List ");
+					startActivity(new Intent(this, CheckListMainActivity.class));
+					finish();
+				}
+				break;
+
 
 
 				default: {
