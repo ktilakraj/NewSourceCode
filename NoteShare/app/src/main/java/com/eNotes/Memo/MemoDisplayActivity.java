@@ -82,13 +82,13 @@ public class MemoDisplayActivity extends AppCompatActivity {
 
             Gson gson = new Gson();
             String json = gson.toJson(dataHashMap);
-            FileUtility.writeToFile(json,MemoDisplayActivity.this);
+            FileUtility.writeToFile(json,MemoDisplayActivity.this,FileUtility.FILENAME);
         }
     }
 
     void  readFileDetail() {
 
-        String outPut = FileUtility.readFromFile(this);
+        String outPut = FileUtility.readFromFile(this,FileUtility.FILENAME);
         Gson gson = new Gson();
         dataHashMap = gson.fromJson(outPut, new TypeToken<HashMap<String, Object>>() {
         }.getType());

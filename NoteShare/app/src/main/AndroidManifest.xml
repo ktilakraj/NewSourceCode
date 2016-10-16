@@ -188,6 +188,15 @@
             android:name="com.eNotes.Memo.MemoListingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.eNotes.Checklist.CheckListDetailActivity"
+            android:screenOrientation="portrait"
+             />
+        <activity
+            android:name="com.eNotes.Checklist.CheckListMainActivity"
+            android:screenOrientation="portrait"
+            />
     </application>
 
 </manifest>

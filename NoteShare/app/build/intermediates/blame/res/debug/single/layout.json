@@ -28,12 +28,12 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/color_layout.xml"
     },
     {
-        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/trashrow.xml",
-        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/trashrow.xml"
-    },
-    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/interoduction_activity.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/interoduction_activity.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/trashrow.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/trashrow.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/paintcolor.xml",
@@ -42,6 +42,10 @@
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/copy_of_notefolderrow.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/copy_of_notefolderrow.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_check_list_detail.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/activity_check_list_detail.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notification_center_row.xml",
@@ -372,6 +376,10 @@
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_material.xml"
     },
     {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/checklistrow.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/checklistrow.xml"
+    },
+    {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/login_activity.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/login_activity.xml"
     },
@@ -394,6 +402,10 @@
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/notelist_row_new.xml",
         "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/notelist_row_new.xml"
+    },
+    {
+        "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/activity_check_list_main.xml",
+        "source": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/src/main/res/layout/activity_check_list_main.xml"
     },
     {
         "merged": "/Users/tilakrajverma/Documents/NewSourceCode/NoteShare/app/build/intermediates/res/merged/debug/layout/audiorecord_layout.xml",

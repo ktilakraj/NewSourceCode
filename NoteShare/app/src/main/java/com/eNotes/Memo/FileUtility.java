@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.Random;
 
 /**
  * Created by Tilak on 10/5/16.
@@ -19,8 +20,15 @@ public class FileUtility
     static String ELEMENTTITLEKEY="memotitle";
     static String FILENAME="memo.txt";
     static  int memoselectedindex=-1;
+    public static  String checkListfilename="";
+    public static String FILE_CheckList="checklistmain.txt";
+    public static String CHECKLIST_ROOTKEY="checklist";
 
-    public static String readFromFile(Context context) {
+    public static String Element_title="title";
+    public static String Element_isCheck="isCheck";
+    public static String Element_content ="content";
+
+    public static String readFromFile(Context context,String FILENAME) {
 
         String ret = "";
 
@@ -50,7 +58,7 @@ public class FileUtility
         return ret;
     }
 
-    public static void writeToFile(String data,Context context) {
+    public static void writeToFile(String data,Context context,String FILENAME) {
         try {
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput(FILENAME, Context.MODE_PRIVATE));
             outputStreamWriter.write(data);
@@ -59,6 +67,13 @@ public class FileUtility
         catch (Exception e) {
             Log.e("Exception", "File write failed: " + e.toString());
         }
+    }
+    public static String randomUniqueNumberGenerator() {
+
+        final int NUMBER_RANGE = 1000000;
+        Random random = new Random();
+        Integer numberis = random.nextInt(NUMBER_RANGE);
+        return ""+numberis;
     }
 
 }

@@ -232,7 +232,7 @@ public class MemoListingActivity extends DrawerActivity {
 
     void  readFileDetail() {
 
-        String outPut = FileUtility.readFromFile(this);
+        String outPut = FileUtility.readFromFile(this,FileUtility.FILENAME);
         Gson gson = new Gson();
         dataHashMap = gson.fromJson(outPut, new TypeToken<HashMap<String, Object>>() {
         }.getType());
@@ -268,7 +268,7 @@ public class MemoListingActivity extends DrawerActivity {
             dataHashMap.put(FileUtility.ROOTKEY,arrayList);
             Gson gson = new Gson();
             String json = gson.toJson(dataHashMap);
-            FileUtility.writeToFile(json,MemoListingActivity.this);
+            FileUtility.writeToFile(json,MemoListingActivity.this,FileUtility.FILENAME);
             arrayListSelectedIndex.clear();
         }
         isLongClick=false;
