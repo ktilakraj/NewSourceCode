@@ -65,6 +65,7 @@ public class MemoListingActivity extends DrawerActivity {
             imageButtoncalander = (ImageButton) contentView.findViewById(R.id.mainHeadermenue).findViewById(R.id.imageButtoncalander);
             imageButtoncalander.setImageResource(R.drawable.delete_white_icon);
             imageButtoncalander.setVisibility(View.GONE);
+
             imageButtoncalander.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

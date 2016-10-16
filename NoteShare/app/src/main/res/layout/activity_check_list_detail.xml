@@ -9,9 +9,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.eNotes.Checklist.CheckListDetailActivity">
 
+
+    <include
+        android:id="@+id/mainHeadermenue"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        layout="@layout/menu_header" />
+
 <RelativeLayout
     android:layout_width="match_parent"
     android:id="@+id/layoutmain"
+    android:layout_margin="5dp"
+    android:layout_below="@+id/mainHeadermenue"
     android:layout_height="wrap_content">
 
     <EditText
@@ -25,6 +34,9 @@
     <ImageButton
         android:layout_width="50dp"
         android:id="@+id/btnAddlist"
+        android:layout_marginRight="5dp"
+        android:src="@android:drawable/ic_input_add"
+        android:background="@android:color/transparent"
         android:layout_alignParentRight="true"
         android:layout_height="50dp" />
 
@@ -33,6 +45,10 @@
     <ScrollView
         android:layout_width="match_parent"
         android:id="@+id/scrollView"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
         android:layout_below="@+id/layoutmain"
         android:layout_height="match_parent">
         <LinearLayout
@@ -44,5 +60,12 @@
         </LinearLayout>
 
     </ScrollView>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/A8b241b"
+        android:layout_height="50dp"/>
 
 </RelativeLayout>

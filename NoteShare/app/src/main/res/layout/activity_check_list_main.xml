@@ -3,21 +3,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+android:background="@android:color/white"
     tools:context="com.eNotes.Checklist.CheckListMainActivity">
+
+    <include
+        android:id="@+id/mainHeadermenue"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/menu_header" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/A8b241b"
+        android:layout_height="50dp"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:id="@+id/scrollView"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/mainHeadermenue"
+        android:layout_centerHorizontal="true">
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
-            android:id="@+id/mainLayout"
-            android:layout_height="match_parent">
+            android:id="@+id/mainLayout1"
+            android:layout_height="wrap_content">
 
         </LinearLayout>
 
     </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0.7"
+        android:id="@+id/noQuickNote"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/no_memo"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="No Checklist.Click to add checklist"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:id="@+id/btnAddClick1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/create_1"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="20dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        />
 
 </RelativeLayout>
