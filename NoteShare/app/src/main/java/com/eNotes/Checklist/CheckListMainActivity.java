@@ -21,28 +21,28 @@ import java.util.ArrayList;
 public class CheckListMainActivity extends DrawerActivity {
 
 
-
     CheckListDBManager checkListDBManager = new CheckListDBManager(this);
-     ScrollView scrollView;
-     LinearLayout mainLayout;
-     ArrayList<String>  arrItems;
-    ImageButton imageButtonHamburg,imageButtoncalander;
+    ScrollView scrollView;
+    LinearLayout mainLayout;
+    ArrayList<String> arrItems;
+    ImageButton imageButtonHamburg, imageButtoncalander;
     TextView textViewheaderTitle;
     LinearLayout noQuickNote;
-     ImageButton btnAdd;
+    ImageButton btnAdd;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       // setContentView(R.layout.activity_check_list_main);
+        // setContentView(R.layout.activity_check_list_main);
         LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View contentView = inflater.inflate(R.layout.activity_check_list_main, null, false);
         mDrawerLayout.addView(contentView, 0);
 
-        btnAdd=(ImageButton) contentView.findViewById(R.id.btnAddClick1);
-        scrollView=(ScrollView) contentView.findViewById(R.id.scrollView);
-        mainLayout=(LinearLayout) contentView.findViewById(R.id.mainLayout1);
-        noQuickNote = (LinearLayout) contentView.findViewById(R.id.noQuickNote) ;
+        btnAdd = (ImageButton) contentView.findViewById(R.id.btnAddClick1);
+        scrollView = (ScrollView) contentView.findViewById(R.id.scrollView);
+        mainLayout = (LinearLayout) contentView.findViewById(R.id.mainLayout1);
+        noQuickNote = (LinearLayout) contentView.findViewById(R.id.noQuickNote);
         noQuickNote.setVisibility(View.GONE);
 
         imageButtonHamburg = (ImageButton) contentView.findViewById(R.id.mainHeadermenue).findViewById(R.id.imageButtonHamburg);
@@ -56,7 +56,7 @@ public class CheckListMainActivity extends DrawerActivity {
             @Override
             public void onClick(View v) {
 
-               // deleteMemo();
+                // deleteMemo();
 
             }
         });
@@ -73,11 +73,11 @@ public class CheckListMainActivity extends DrawerActivity {
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FileUtility.checkListfilename="";
+                FileUtility.checkListfilename = "";
                 moveToMemoDisplay();
             }
         });
-        
+
     }
 
 
@@ -92,9 +92,9 @@ public class CheckListMainActivity extends DrawerActivity {
 
         mainLayout.removeAllViews();
 
-        LayoutInflater inflater = (LayoutInflater)  this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        int tag=0;
-        for (String str:arrItems) {
+        LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        int tag = 0;
+        for (String str : arrItems) {
 
             final View view = inflater.inflate(R.layout.checklistrow, null);
             TextView item = (TextView) view.findViewById(R.id.textViewDisplay);
@@ -107,8 +107,8 @@ public class CheckListMainActivity extends DrawerActivity {
                 @Override
                 public void onClick(View v) {
 
-                    Log.d(" the Click view:",""+v.getTag());
-                    FileUtility.checkListfilename= arrItems.get((int)v.getTag());
+                    Log.d(" the click view:", "" + v.getTag());
+                    FileUtility.checkListfilename = arrItems.get((int) v.getTag());
                     moveToMemoDisplay();
 
                 }
@@ -118,8 +118,8 @@ public class CheckListMainActivity extends DrawerActivity {
                 @Override
                 public boolean onLongClick(View v) {
 
-                    Log.e("", "Long Clcik detected");
-                   // v.setBackgroundColor(Color.CYAN);
+                    Log.e("", "Long click detected");
+                    // v.setBackgroundColor(Color.CYAN);
                     return true;
                 }
             });
@@ -128,27 +128,19 @@ public class CheckListMainActivity extends DrawerActivity {
 
     }
 
-    void moveToMemoDisplay()
-    {
-        startActivity(new Intent(CheckListMainActivity.this,CheckListDetailActivity.class));
+    void moveToMemoDisplay() {
+        startActivity(new Intent(CheckListMainActivity.this, CheckListDetailActivity.class));
     }
 
 
-    void  readCheckListMainFile() {
+    void readCheckListMainFile() {
 
-        arrItems =  checkListDBManager.getAllCheckListMain();
-        if (arrItems.size() <=0)
-        {
-            startActivity(new Intent(this,CheckListDetailActivity.class));
+        arrItems = checkListDBManager.getAllCheckListMain();
+        noQuickNote.setVisibility(View.GONE);
+        if (arrItems.size() <= 0) {
+            noQuickNote.setVisibility(View.VISIBLE);
+            startActivity(new Intent(this, CheckListDetailActivity.class));
         }
-
-//        String outPut = FileUtility.readFromFile(this,FileUtility.FILE_CheckList);
-//        if (outPut == null ||outPut.length() == 0) {
-//
-//            startActivity(new Intent(this,CheckListDetailActivity.class));
-//        }
-//        startActivity(new Intent(this,CheckListDetailActivity.class));
-
 
     }
 

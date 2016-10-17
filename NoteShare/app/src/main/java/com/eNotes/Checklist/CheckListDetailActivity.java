@@ -35,7 +35,8 @@ public class CheckListDetailActivity extends AppCompatActivity {
     ArrayList<String>  arrayList;
     public ScrollView scrollView;
     public LinearLayout mainLayout;
-
+    ImageButton imageButtonHamburg;
+    TextView textViewheaderTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,21 @@ public class CheckListDetailActivity extends AppCompatActivity {
         entermemo= (EditText) findViewById(R.id.entermemo);
         scrollView=(ScrollView) findViewById(R.id.scrollView);
         mainLayout=(LinearLayout) findViewById(R.id.mainLayout);
+
+
+
+        imageButtonHamburg = (ImageButton) findViewById(R.id.mainHeadermenue).findViewById(R.id.imageButtonHamburg);
+        textViewheaderTitle = (TextView) findViewById(R.id.mainHeadermenue).findViewById(R.id.textViewheaderTitle);
+        textViewheaderTitle.setText("");
+        imageButtonHamburg.setImageResource(R.drawable.back_button_icon);
+        imageButtonHamburg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                onBackPressed();
+            }
+        });
 
         btnAddlist.setOnClickListener(new View.OnClickListener() {
             @Override
